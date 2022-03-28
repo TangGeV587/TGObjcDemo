@@ -16,6 +16,7 @@
 		9E0D436D27EC5F280074B761 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E0D436B27EC5F280074B761 /* LaunchScreen.storyboard */; };
 		9E0D437027EC5F280074B761 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0D436F27EC5F280074B761 /* main.m */; };
 		9E8AB22227F144850081D9E2 /* SubjectSubController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8AB22127F144850081D9E2 /* SubjectSubController.m */; };
+		9E8AB22627F1C12F0081D9E2 /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = 9E8AB22527F1C12F0081D9E2 /* Podfile.lock */; };
 		9EEE843827ED9EAC00E3E948 /* RACSubjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEE843727ED9EAC00E3E948 /* RACSubjectViewController.m */; };
 		9EEE843B27ED9ED100E3E948 /* TGDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEE843A27ED9ED100E3E948 /* TGDataItem.m */; };
 		9EEE843E27EDA7A500E3E948 /* RacListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEE843D27EDA7A500E3E948 /* RacListTableViewController.m */; };
@@ -37,6 +38,7 @@
 		9E0D436F27EC5F280074B761 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9E8AB22027F144850081D9E2 /* SubjectSubController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubjectSubController.h; sourceTree = "<group>"; };
 		9E8AB22127F144850081D9E2 /* SubjectSubController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubjectSubController.m; sourceTree = "<group>"; };
+		9E8AB22527F1C12F0081D9E2 /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
 		9EEE843627ED9EAC00E3E948 /* RACSubjectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACSubjectViewController.h; sourceTree = "<group>"; };
 		9EEE843727ED9EAC00E3E948 /* RACSubjectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACSubjectViewController.m; sourceTree = "<group>"; };
 		9EEE843927ED9ED100E3E948 /* TGDataItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGDataItem.h; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 		9EEE843527ED9C0900E3E948 /* Rac */ = {
 			isa = PBXGroup;
 			children = (
+				9E8AB22527F1C12F0081D9E2 /* Podfile.lock */,
 				9EEE843627ED9EAC00E3E948 /* RACSubjectViewController.h */,
 				9EEE843727ED9EAC00E3E948 /* RACSubjectViewController.m */,
 				9EEE843C27EDA7A500E3E948 /* RacListTableViewController.h */,
@@ -189,6 +192,7 @@
 			files = (
 				9E0D436D27EC5F280074B761 /* LaunchScreen.storyboard in Resources */,
 				9E0D436A27EC5F280074B761 /* Assets.xcassets in Resources */,
+				9E8AB22627F1C12F0081D9E2 /* Podfile.lock in Resources */,
 				9E0D436827EC5F270074B761 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,1155 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - AlicloudPush (1.9.9.6):
+    - AlicloudSender
+    - AlicloudUT
+    - AlicloudUtils
+  - AlicloudSender (1.0.0.3):
+    - AlicloudUTDID
+    - EMASRest
+  - AlicloudUT (5.2.0.16):
+    - AlicloudUTDID
+  - AlicloudUTDID (1.5.0.94)
+  - AlicloudUtils (1.3.9):
+    - AlicloudUTDID
+  - AliyunOSSiOS (2.10.12)
+  - AMapFoundation-NO-IDFA (1.6.9)
+  - AMapLocation-NO-IDFA (2.6.7):
+    - AMapFoundation-NO-IDFA (~> 1.6.4)
+  - AMapNavi-NO-IDFA (7.8.0):
+    - AMapFoundation-NO-IDFA (~> 1.6.5)
+  - AMapSearch-NO-IDFA (7.8.0):
+    - AMapFoundation-NO-IDFA (~> 1.6.4)
+  - Base64 (1.1.2)
+  - BGFMDB (2.0.13):
+    - BGFMDB/BG (= 2.0.13)
+    - BGFMDB/FMDB (= 2.0.13)
+  - BGFMDB/BG (2.0.13):
+    - BGFMDB/FMDB
+  - BGFMDB/FMDB (2.0.13)
+  - BindingX (1.0.3):
+    - WeexPluginLoader
+    - WeexSDK
+  - BRPickerView (2.7.6):
+    - BRPickerView/AddressPickerView (= 2.7.6)
+    - BRPickerView/Base (= 2.7.6)
+    - BRPickerView/DatePickerView (= 2.7.6)
+    - BRPickerView/StringPickerView (= 2.7.6)
+  - BRPickerView/AddressPickerView (2.7.6):
+    - BRPickerView/Base
+  - BRPickerView/Base (2.7.6)
+  - BRPickerView/DatePickerView (2.7.6):
+    - BRPickerView/Base
+  - BRPickerView/StringPickerView (2.7.6):
+    - BRPickerView/Base
+  - Bugly (2.5.91)
+  - CocoaLumberjack (3.7.4):
+    - CocoaLumberjack/Core (= 3.7.4)
+  - CocoaLumberjack/Core (3.7.4)
+  - DACircularProgress (2.3.1)
+  - DateTools (2.0.0)
+  - DZNEmptyDataSet (1.8.1)
+  - EcarxWatchSDK (0.4.0):
+    - AFNetworking (>= 4.0)
+    - GLServiceSDK
+    - Masonry
+    - MJExtension (~> 3.0.13)
+    - MJRefresh
+    - Protobuf (~> 3.6.1)
+    - SDWebImage
+    - SVProgressHUD
+    - SweetCoreKit
+    - Toast
+  - EdkCryptHelper (0.1.3.0429)
+  - EMASRest (11.1.1.2)
+  - ExDigitalKeySDK (1.5.14):
+    - EdkCryptHelper (= 0.1.3.0429)
+    - ExDigitalKeyTspServiceSDK (= 1.5.0.0703)
+    - GLBLEAuthSDK (= 0.1.4)
+    - GLLogSDK
+  - ExDigitalKeyTspServiceSDK (1.5.0.0703):
+    - GLServiceSDK
+  - ExLogSDK (0.2.1)
+  - ExRPAControlSDK (1.1.1.5):
+    - ExDigitalKeySDK (~> 1.5.14)
+    - ExLogSDK (= 0.2.1)
+    - GLMVVMKit
+    - IQKeyboardManager
+    - MMPopupView (= 1.7.2)
+    - WebViewJavascriptBridge_WebKit (~> 7.0.1)
+  - FLAnimatedImage (1.0.16)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - FSCalendar (2.8.2)
+  - GeelyLynkcoCarNetwork (0.1.35):
+    - AlicloudPush
+    - AMapLocation-NO-IDFA (= 2.6.7)
+    - AMapNavi-NO-IDFA (= 7.8.0)
+    - AMapSearch-NO-IDFA (= 7.8.0)
+    - DateTools
+    - ExDigitalKeySDK (= 1.5.14)
+    - GeelyLynkcoMain
+    - GeelyLynkcoPlugin
+    - GLLogSDK
+    - GLMVVMKit
+    - GLServiceSDK (= 3.4.2)
+    - GLTheme
+    - GLUnlockOfflineKit
+    - HHEnergySDK_Lynkco (= 1.0.1)
+    - IQKeyboardManager
+    - LYVehicleShareModule (= 0.2.10)
+    - MBProgressHUD
+    - MJExtension
+    - MMPopupView
+    - PulsingHalo (~> 0.2.8)
+    - ReactiveObjC (= 3.1.6)
+    - SDCycleScrollView
+    - SDWebImage
+    - SensorsAnalyticsSDK
+    - SGPagingView
+    - SSZipArchive
+    - SWCordovaKit
+    - SWDefaultService
+    - SWFramework
+    - SWUIKit
+    - TspEdgeCarShareSDK (= 1.0.7)
+    - TspEdgeDigitalKeySDK (= 1.0.19)
+    - TspEdgeDvrSDK (= 1.0.3)
+    - TspEdgeIOVSDK (= 3.5.0)
+    - TspEdgeLightShowSDK (= 0.1.6)
+    - TZImagePickerController (~> 3.7.0)
+    - "UIImage+ImageWithColor"
+  - GeelyLynkcoCarService (0.1.14):
+    - AMapLocation-NO-IDFA (= 2.6.7)
+    - AMapNavi-NO-IDFA (= 7.8.0)
+    - AMapSearch-NO-IDFA (= 7.8.0)
+    - DateTools
+    - DZNEmptyDataSet
+    - FSCalendar
+    - GeelyLynkcoCarService/SvgKit (= 0.1.14)
+    - GeelyLynkcoMain
+    - GLServiceSDK
+    - IQKeyboardManager
+    - JSONModel
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - ReactiveObjC
+    - SDCycleScrollView
+    - SGPagingView
+    - SSZipArchive
+    - SWCordovaKit
+    - SWFramework
+    - SWUIKit
+    - TZImagePickerController (~> 3.7.0)
+  - GeelyLynkcoCarService/SvgKit (0.1.14):
+    - AMapLocation-NO-IDFA (= 2.6.7)
+    - AMapNavi-NO-IDFA (= 7.8.0)
+    - AMapSearch-NO-IDFA (= 7.8.0)
+    - CocoaLumberjack (~> 3.x)
+    - DateTools
+    - DZNEmptyDataSet
+    - FSCalendar
+    - GeelyLynkcoMain
+    - GLServiceSDK
+    - IQKeyboardManager
+    - JSONModel
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - ReactiveObjC
+    - SDCycleScrollView
+    - SGPagingView
+    - SSZipArchive
+    - SWCordovaKit
+    - SWFramework
+    - SWUIKit
+    - TZImagePickerController (~> 3.7.0)
+  - GeelyLynkcoLogin (0.1.21):
+    - AlicloudPush
+    - AliyunOSSiOS
+    - GeelyLynkcoMain
+    - GLMVVMKit
+    - MJExtension
+    - MJRefresh
+    - ReactiveObjC
+    - SDWebImage
+    - SensorsAnalyticsSDK
+    - SSKeychain
+    - SWDefaultService
+    - SWFramework
+    - SWNetworkKit
+    - SWUIKit
+    - SWWeexKit
+    - YYText
+  - GeelyLynkcoMain (0.1.29):
+    - AlicloudPush
+    - AliyunOSSiOS
+    - BGFMDB
+    - Bugly
+    - GLLogSDK
+    - MBProgressHUD
+    - PPBadgeView
+    - RangersAPM/APMLog (= 2.6.1)
+    - RangersAPM/CN (= 2.6.1)
+    - RangersAPM/Crash (= 2.6.1)
+    - RangersAPM/CrashProtector (= 2.6.1)
+    - RangersAPM/EventMonitor (= 2.6.1)
+    - RangersAPM/Hybrid (= 2.6.1)
+    - RangersAPM/LAG (= 2.6.1)
+    - RangersAPM/MemoryGraph (= 2.6.1)
+    - RangersAPM/Monitors (= 2.6.1)
+    - RangersAPM/NetworkPro (= 2.6.1)
+    - RangersAPM/OOM (= 2.6.1)
+    - RangersAPM/SessionTracker (= 2.6.1)
+    - RangersAPM/UITrackers (= 2.6.1)
+    - RangersAPM/UserException (= 2.6.1)
+    - RangersAPM/WatchDog (= 2.6.1)
+    - SDWebImage
+    - SensorsAnalyticsSDK
+    - SocketRocket
+    - SSZipArchive
+    - SVProgressHUD
+    - SWDefaultService
+    - SweetCoreKit
+    - SWFramework
+    - SWLogManager
+    - SWNetworkKit
+    - SWUIKit
+    - YYText
+  - GeelyLynkcoPlugin (0.0.20):
+    - GeelyLynkcoMain
+    - GeelyLynkcoThird
+    - GLServiceSDK
+    - IQKeyboardManager
+    - Masonry
+    - MJExtension
+    - QRCodeReaderViewController
+    - SDWebImage
+    - SWCordovaKit
+    - SWDefaultService
+    - SWFramework
+    - SWImageTools
+    - SWNetworkKit
+    - SWUIKit
+    - WeexPluginLoader
+  - GeelyLynkcoThird (0.1.16):
+    - AlicloudUTDID
+    - GeelyLynkcoMain
+    - MJExtension
+    - Reachability
+    - SAMKeychain
+    - SWDefaultService
+    - SWFramework
+    - SWNetworkKit
+    - SWUIKit
+    - Toast
+  - GLBLEAuthSDK (0.1.4)
+  - GLLogSDK (0.1.9)
+  - GLMVVMKit (0.6.17):
+    - DZNEmptyDataSet (~> 1.8.1)
+    - Masonry (~> 1.1.0)
+    - MBProgressHUD (~> 1.1.0)
+    - MGJRouter
+    - MJRefresh (~> 3.1.12)
+    - ReactiveObjC (~> 3.1.0)
+  - GLServiceSDK (3.4.2):
+    - AFNetworking (~> 4.0.0)
+    - GLLogSDK (~> 0.1.9)
+    - JSONModel (= 1.7.0)
+    - ReactiveObjC (~> 3.1.0)
+    - TspEdgeCore (~> 1.0.2)
+  - GLTheme (0.1.7)
+  - GLUnlockOfflineKit (0.1.4):
+    - UICKeyChainStore
+  - HHBaseLib (0.8.38):
+    - HHBaseLib/BaseAlert (= 0.8.38)
+    - HHBaseLib/Color (= 0.8.38)
+    - HHBaseLib/HHBaseNetworking (= 0.8.38)
+    - HHBaseLib/HHBaseView (= 0.8.38)
+    - HHBaseLib/HHCrashWarning (= 0.8.38)
+    - HHBaseLib/HHCusButton (= 0.8.38)
+    - HHBaseLib/HHCusView (= 0.8.38)
+    - HHBaseLib/HHDatePicker (= 0.8.38)
+    - HHBaseLib/HHHeader (= 0.8.38)
+    - HHBaseLib/HHImagePickerController (= 0.8.38)
+    - HHBaseLib/HHMutableString (= 0.8.38)
+    - HHBaseLib/HHPLSDKUser (= 0.8.38)
+    - HHBaseLib/HHSocketIO (= 0.8.38)
+    - HHBaseLib/HHToast (= 0.8.38)
+    - HHBaseLib/HHTools (= 0.8.38)
+    - HHBaseLib/Login (= 0.8.38)
+    - HHBaseLib/PageMenu (= 0.8.38)
+    - HHBaseLib/QRCode (= 0.8.38)
+    - HHBaseLib/WebView (= 0.8.38)
+    - Masonry
+  - HHBaseLib/BaseAlert (0.8.38):
+    - HHBaseLib/HHBaseView
+    - HHBaseLib/HHHeader
+    - Masonry
+  - HHBaseLib/Color (0.8.38):
+    - Masonry
+  - HHBaseLib/HHBaseNetworking (0.8.38):
+    - AFNetworking
+    - HHBaseLib/HHHeader
+    - HHBaseLib/HHSocketIO
+    - HHBaseLib/HHToast
+    - Masonry
+    - MJExtension
+  - HHBaseLib/HHBaseView (0.8.38):
+    - HHBaseLib/HHHeader
+    - Masonry
+  - HHBaseLib/HHCrashWarning (0.8.38):
+    - Masonry
+  - HHBaseLib/HHCusButton (0.8.38):
+    - Masonry
+  - HHBaseLib/HHCusView (0.8.38):
+    - HHBaseLib/HHBaseView
+    - HHBaseLib/HHHeader
+    - Masonry
+  - HHBaseLib/HHDatePicker (0.8.38):
+    - BRPickerView
+    - HHBaseLib/Color
+    - Masonry
+  - HHBaseLib/HHHeader (0.8.38):
+    - HHBaseLib/Color
+    - HHBaseLib/HHToast
+    - Masonry
+  - HHBaseLib/HHImagePickerController (0.8.38):
+    - Masonry
+  - HHBaseLib/HHMutableString (0.8.38):
+    - Masonry
+  - HHBaseLib/HHPLSDKUser (0.8.38):
+    - HHBaseLib/HHBaseNetworking
+    - Masonry
+  - HHBaseLib/HHSocketIO (0.8.38):
+    - AFNetworking
+    - Masonry
+    - MJExtension
+  - HHBaseLib/HHToast (0.8.38):
+    - lottie-ios (~> 2.5.3)
+    - Masonry
+  - HHBaseLib/HHTools (0.8.38):
+    - HHBaseLib/HHHeader
+    - Masonry
+  - HHBaseLib/Login (0.8.38):
+    - HHBaseLib/Color
+    - HHBaseLib/HHHeader
+    - HHBaseLib/HHToast
+    - HHBaseLib/HHTools
+    - Masonry
+  - HHBaseLib/PageMenu (0.8.38):
+    - Masonry
+  - HHBaseLib/QRCode (0.8.38):
+    - Masonry
+  - HHBaseLib/WebView (0.8.38):
+    - HHBaseLib/HHHeader
+    - Masonry
+  - HHEnergySDK_Lynkco (1.0.1):
+    - HHFamilyPileSDK (= 0.2.27)
+  - HHFamilyPileSDK (0.2.27):
+    - AFNetworking
+    - BRPickerView
+    - FMDB
+    - HHBaseLib (~> 0.8.26)
+    - IQKeyboardManager
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - SDWebImage
+    - SWDefaultService
+  - iOS-LynkCoIM (0.1.8):
+    - AFNetworking
+    - DZNEmptyDataSet
+    - GeelyLynkcoMain
+    - ISVImageScrollView (= 0.1.2)
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - MMLayout (= 0.2.0)
+    - ReactiveObjC (= 3.1.6)
+    - SDWebImage
+    - SWDefaultService
+    - SWFramework
+    - SWNetworkKit
+    - SWUIKit
+    - Toast
+    - TXLiteAVSDK_TRTC
+    - TZImagePickerController (~> 3.7.0)
+    - YYImage
+  - IQKeyboardManager (6.5.9)
+  - ISVImageScrollView (0.1.2)
+  - iwallca (1.0.13)
+  - JCore (1.2.6)
+  - JPush (3.1.2):
+    - JCore (~> 1.2.6)
+  - JSONModel (1.7.0)
+  - lottie-ios (2.5.3)
+  - LynkCoRPAModule (1.0.11):
+    - ExRPAControlSDK (= 1.1.1.5)
+    - GLMVVMKit
+    - GLServiceSDK
+    - SWFramework
+  - LYVehicleShareModule (0.2.10):
+    - AliyunOSSiOS
+    - GLLogSDK
+    - GLMVVMKit (~> 0.6.16)
+    - GLServiceSDK
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - MGJRouter (1.0.0)
+  - MJExtension (3.0.17)
+  - MJRefresh (3.1.17)
+  - MMLayout (0.2.0)
+  - MMPopupView (1.7.2):
+    - Masonry
+  - NatAccelerometer (0.0.3)
+  - NatAudio (0.0.3)
+  - NatBattery (0.0.2)
+  - NatCamera (0.0.2)
+  - NatCommunication (0.0.2)
+  - NatCompass (0.0.2)
+  - NatDeviceInfo (0.0.3)
+  - NatDeviceNetwork (0.0.2):
+    - Reachability (~> 3.2)
+  - NatGeolocation (0.0.6)
+  - NatModal (0.0.1)
+  - NatRecorder (0.0.2)
+  - NatScreen (0.0.1)
+  - NatStream (0.0.1)
+  - NatTransfer (0.0.4)
+  - NatVibration (0.0.1)
+  - NatVideo (0.0.3):
+    - Reachability (~> 3.2)
+  - OneKit/BaseKit (1.1.41)
+  - OneKit/Database (1.1.41):
+    - OneKit/Service
+  - OneKit/Service (1.1.41)
+  - PPBadgeView (3.1.0)
+  - Protobuf (3.6.1)
+  - PulsingHalo (0.2.10)
+  - QRCodeReaderViewController (4.0.2)
+  - RangersAPM/Above (2.6.1)
+  - RangersAPM/APMLog (2.6.1):
+    - RangersAPM/Core
+    - RangersAPM/HMD
+    - RangersAPM/Public
+    - RangersAPM/Zip
+  - RangersAPM/CN (2.6.1):
+    - RangersAPM/Core
+    - RangersAPM/Public
+  - RangersAPM/Core (2.6.1):
+    - OneKit/BaseKit (>= 1.1.19)
+  - RangersAPM/Crash (2.6.1):
+    - RangersAPM/Core
+    - RangersAPM/HMD
+    - RangersAPM/Public
+  - RangersAPM/CrashProtector (2.6.1):
+    - RangersAPM/Core
+    - RangersAPM/Crash
+    - RangersAPM/HMD
+    - RangersAPM/Public
+  - RangersAPM/EventMonitor (2.6.1):
+    - RangersAPM/Core
+    - RangersAPM/HMD
+    - RangersAPM/Public
+  - RangersAPM/HMD (2.6.1):
+    - OneKit/Database (>= 1.1.19)
+    - RangersAPM/Core
+  - RangersAPM/Hybrid (2.6.1):
+    - RangersAPM/Core
+    - RangersAPM/HMD
+    - RangersAPM/Public
+  - RangersAPM/LAG (2.6.1):
+    - RangersAPM/Core
+    - RangersAPM/HMD
+    - RangersAPM/Public
+  - RangersAPM/MemoryGraph (2.6.1):
+    - RangersAPM/Core
+    - RangersAPM/HMD
+    - RangersAPM/Public
+    - RangersAPM/Zip
+  - RangersAPM/Monitors (2.6.1):
+    - RangersAPM/UITrackers
+  - RangersAPM/NetworkBasic (2.6.1):
+    - RangersAPM/Core
+    - RangersAPM/HMD
+    - RangersAPM/Public
+  - RangersAPM/NetworkPro (2.6.1):
+    - RangersAPM/NetworkBasic
+  - RangersAPM/OOM (2.6.1):
+    - RangersAPM/Core
+    - RangersAPM/Crash
+    - RangersAPM/HMD
+    - RangersAPM/Public
+    - RangersAPM/WatchDog
+  - RangersAPM/Public (2.6.1):
+    - RangersAPM/Above
+    - RangersAPM/Core
+    - RangersAPM/Zyone
+  - RangersAPM/SessionTracker (2.6.1):
+    - RangersAPM/Core
+    - RangersAPM/HMD
+    - RangersAPM/Public
+  - RangersAPM/UITrackers (2.6.1):
+    - RangersAPM/Core
+    - RangersAPM/HMD
+    - RangersAPM/Public
+  - RangersAPM/UserException (2.6.1):
+    - RangersAPM/Core
+    - RangersAPM/HMD
+    - RangersAPM/Public
+  - RangersAPM/WatchDog (2.6.1):
+    - RangersAPM/Core
+    - RangersAPM/HMD
+    - RangersAPM/Public
+  - RangersAPM/Zip (2.6.1)
+  - RangersAPM/Zyone (2.6.1)
+  - Reachability (3.2)
+  - ReactiveObjC (3.1.6)
+  - SAMKeychain (1.5.3)
+  - SDCycleScrollView (1.82):
+    - SDWebImage (>= 5.0.0)
+  - SDWebImage (5.12.3):
+    - SDWebImage/Core (= 5.12.3)
+  - SDWebImage/Core (5.12.3)
+  - SensorsAnalyticsSDK (4.2.1):
+    - SensorsAnalyticsSDK/Core (= 4.2.1)
+  - SensorsAnalyticsSDK/__Store (4.2.1)
+  - SensorsAnalyticsSDK/AutoTrack (4.2.1):
+    - SensorsAnalyticsSDK/Common
+  - SensorsAnalyticsSDK/Base (4.2.1):
+    - SensorsAnalyticsSDK/__Store
+  - SensorsAnalyticsSDK/Common (4.2.1):
+    - SensorsAnalyticsSDK/Extension
+  - SensorsAnalyticsSDK/Core (4.2.1):
+    - SensorsAnalyticsSDK/Common
+    - SensorsAnalyticsSDK/Visualized
+  - SensorsAnalyticsSDK/Extension (4.2.1):
+    - SensorsAnalyticsSDK/Base
+  - SensorsAnalyticsSDK/Visualized (4.2.1):
+    - SensorsAnalyticsSDK/AutoTrack
+  - SGPagingView (1.7.1)
+  - SocketRocket (0.6.0)
+  - SSKeychain (1.4.1)
+  - SSZipArchive (2.4.3)
+  - SVProgressHUD (2.2.5)
+  - SWAdvertiseMapp (0.0.9):
+    - FLAnimatedImage
+    - SWDefaultService
+    - SWFramework
+    - SWUIKit
+  - SWAppletService (0.0.18):
+    - AFNetworking
+    - AliyunOSSiOS
+    - Masonry
+    - SSZipArchive
+    - SVProgressHUD
+    - SWCordovaKit
+    - SWFramework
+    - SWUIKit
+    - SWWeexKit
+  - SWCompatible (0.1.9):
+    - SweetCoreKit
+    - SWFramework
+  - SWCordovaDefaultPlugins (0.0.20):
+    - AFNetworking
+    - Base64
+    - SWCordovaKit
+    - SWDefaultService
+    - SWFramework
+    - SWImageTools
+    - SWNetworkKit
+  - SWCordovaKit (0.1.10):
+    - SWFramework
+    - SWUIKit
+  - SWDebugMapp (0.0.14):
+    - BGFMDB
+    - Masonry
+    - SSZipArchive
+    - SWDefaultService
+    - SWFramework
+    - Toast
+  - SWDefaultService (0.0.41):
+    - Base64
+    - SWFramework
+    - SWUIKit
+  - SweetCoreKit (0.2.1):
+    - AFNetworking
+  - SWFramework (0.1.3)
+  - SWImageTools (0.0.9):
+    - DACircularProgress
+    - MBProgressHUD
+    - SDWebImage
+    - TZImagePickerController
+  - SWLogManager (0.0.12):
+    - Protobuf
+    - SWDefaultService
+    - SWFramework
+  - SWNetworkKit (0.0.12):
+    - AFNetworking
+    - SocketRocket
+  - SWSocialKit (0.3.9):
+    - AlicloudPush
+    - AliyunOSSiOS
+    - GLLogSDK
+    - JPush (= 3.1.2)
+    - MJExtension
+    - SDWebImage
+    - SVProgressHUD
+    - SWDefaultService
+    - SWFramework
+    - SWUIKit
+    - UMCCommon
+    - UMCShare/Social/QQ
+    - UMCShare/Social/Sina
+    - WechatOpenSDK
+  - SWUIKit (0.0.31):
+    - Masonry
+    - MBProgressHUD
+    - SDWebImage
+    - SWFramework
+  - SWWebComponent (0.1.9):
+    - SWCordovaKit
+    - WeexPluginLoader (= 0.1.1)
+    - WeexSDK
+  - SWWeexDefaultPlugins (0.0.8):
+    - BindingX
+    - SWDefaultService
+    - SWFramework
+    - SWNetworkKit
+    - SWWeexKit
+    - WeexActionSheet
+    - WeexNatCamera
+    - WeexNatCommunication
+    - WeexNatDeviceBattery
+    - WeexNatDeviceInfo
+    - WeexNatDeviceNetwork
+    - WeexNatDeviceScreen
+    - WeexNatDeviceVibration
+    - WeexNatGeolocation
+    - WeexNatMediaAudio
+    - WeexNatMediaVideo
+    - WeexNatModal
+    - WeexNatRecorder
+    - WeexNatSensorAccelerometer
+    - WeexNatSensorCompass
+    - WeexNatStream
+    - WeexNatTransfer
+    - WeexPluginLoader (= 0.1.1)
+  - SWWeexKit (0.0.15):
+    - SDWebImage
+    - SWFramework
+    - SWUIKit
+    - WeexSDK
+  - Toast (4.0.0)
+  - TspEdgeBasicSDK (1.1.1):
+    - GLServiceSDK (~> 3.4.2)
+    - TspEdgeCore
+  - TspEdgeCarShareSDK (1.0.7):
+    - GLServiceSDK
+    - iwallca (= 1.0.13)
+  - TspEdgeCore (1.0.3):
+    - GLLogSDK (>= 0.1.8)
+  - TspEdgeDigitalKeySDK (1.0.19):
+    - GLLogSDK
+    - GLServiceSDK
+    - iwallca (= 1.0.13)
+  - TspEdgeDvrSDK (1.0.3):
+    - GLServiceSDK
+  - TspEdgeIOVSDK (3.5.0):
+    - GLServiceSDK (~> 3.4.2)
+    - TspEdgeBasicSDK (~> 1.1.1)
+    - TspEdgeCore
+  - TspEdgeLightShowSDK (0.1.6):
+    - GLServiceSDK (>= 3.2.3)
+  - TXLiteAVSDK_TRTC (9.5.11233)
+  - TZImagePickerController (3.7.3)
+  - UICKeyChainStore (2.2.1)
+  - "UIImage+ImageWithColor (1.4.0)"
+  - UMAPM (1.5.6)
+  - UMCCommon (7.3.6):
+    - UMAPM
+    - UMDevice
+  - UMCShare/Core (6.10.2):
+    - UMCCommon
+  - UMCShare/Social/QQ (6.10.2):
+    - UMCCommon
+    - UMCShare/Core
+    - UMCShare/Social/ReducedQQ
+  - UMCShare/Social/ReducedQQ (6.10.2):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/ReducedSina (6.10.2):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/Sina (6.10.2):
+    - UMCCommon
+    - UMCShare/Core
+    - UMCShare/Social/ReducedSina
+  - UMDevice (2.2.1)
+  - WebViewJavascriptBridge_WebKit (7.0.1)
+  - WechatOpenSDK (1.8.7.1)
+  - WeexActionSheet (1.3.5):
+    - WeexPluginLoader
+    - WeexSDK
+  - WeexNatCamera (1.0.0):
+    - NatCamera
+    - WeexPluginLoader
+    - WeexSDK
+  - WeexNatCommunication (1.0.0):
+    - NatCommunication
+    - WeexPluginLoader
+    - WeexSDK
+  - WeexNatDeviceBattery (1.0.0):
+    - NatBattery
+    - WeexPluginLoader
+    - WeexSDK
+  - WeexNatDeviceInfo (1.0.0):
+    - NatDeviceInfo
+    - WeexPluginLoader
+    - WeexSDK
+  - WeexNatDeviceNetwork (1.0.0):
+    - NatDeviceNetwork
+    - WeexPluginLoader
+    - WeexSDK
+  - WeexNatDeviceScreen (1.0.0):
+    - NatScreen
+    - WeexPluginLoader
+    - WeexSDK
+  - WeexNatDeviceVibration (1.0.0):
+    - NatVibration
+    - WeexPluginLoader
+    - WeexSDK
+  - WeexNatGeolocation (1.0.1):
+    - NatGeolocation
+    - WeexPluginLoader
+    - WeexSDK
+  - WeexNatMediaAudio (1.0.0):
+    - NatAudio
+    - WeexPluginLoader
+    - WeexSDK
+  - WeexNatMediaVideo (1.0.0):
+    - NatVideo
+    - WeexPluginLoader
+    - WeexSDK
+  - WeexNatModal (1.0.1):
+    - NatModal
+    - WeexPluginLoader
+    - WeexSDK
+  - WeexNatRecorder (1.0.0):
+    - NatRecorder
+    - WeexPluginLoader
+    - WeexSDK
+  - WeexNatSensorAccelerometer (1.0.0):
+    - NatAccelerometer
+    - WeexPluginLoader
+    - WeexSDK
+  - WeexNatSensorCompass (1.0.1):
+    - NatCompass
+    - WeexPluginLoader
+    - WeexSDK
+  - WeexNatStream (1.0.0):
+    - NatStream
+    - WeexPluginLoader
+    - WeexSDK
+  - WeexNatTransfer (1.0.1):
+    - NatTransfer
+    - WeexPluginLoader
+    - WeexSDK
+  - WeexPluginLoader (0.1.1):
+    - WeexSDK
+  - WeexSDK (0.28.0)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYText (1.0.7)
+
+DEPENDENCIES:
+  - EcarxWatchSDK (from `https://gitlab.com/itrealm/EcarxWatchSDK.git`, tag `0.4.0`)
+  - GeelyLynkcoCarNetwork (from `../sw_modules/GeelyLynkcoCarNetwork`)
+  - GeelyLynkcoCarService (from `../sw_modules/GeelyLynkcoCarService`)
+  - GeelyLynkcoLogin (from `../sw_modules/GeelyLynkcoLogin`)
+  - GeelyLynkcoMain (from `../sw_modules/GeelyLynkcoMain`)
+  - GeelyLynkcoPlugin (from `../sw_modules/GeelyLynkcoPlugin`)
+  - GeelyLynkcoThird (from `../sw_modules/GeelyLynkcoThird`)
+  - GLServiceSDK (= 3.4.2)
+  - GLUnlockOfflineKit (from `../sw_modules/GLUnlockOfflineKit`)
+  - iOS-LynkCoIM (from `../sw_modules/iOS-LynkCoIM`)
+  - LynkCoRPAModule (from `../sw_modules/LynkCoRPAModule`)
+  - SensorsAnalyticsSDK (= 4.2.1)
+  - SWAdvertiseMapp
+  - SWAppletService
+  - SWCompatible
+  - SWCordovaDefaultPlugins
+  - SWCordovaKit
+  - SWDebugMapp
+  - SWDefaultService
+  - SWFramework
+  - SWImageTools
+  - SWLogManager
+  - SWNetworkKit
+  - SWSocialKit
+  - SWUIKit
+  - SWWebComponent
+  - SWWeexDefaultPlugins
+  - SWWeexKit
+  - TspEdgeIOVSDK (= 3.5.0)
+  - WeexSDK (from `https://gitee.com/sweetApp/incubator-weex.git`)
+
+SPEC REPOS:
+  http://git.haohanpower.tech/iospublic/hhspecrepo.git:
+    - HHBaseLib
+    - HHEnergySDK_Lynkco
+    - HHFamilyPileSDK
+  https://code.aliyun.com/ecarx-ios/eCarxOpenSpecs.git:
+    - EdkCryptHelper
+    - ExDigitalKeyTspServiceSDK
+    - GLBLEAuthSDK
+    - GLTheme
+    - LYVehicleShareModule
+  https://code.aliyun.com/ecarx-open/spec-binary.git:
+    - ExDigitalKeySDK
+    - ExRPAControlSDK
+    - GLLogSDK
+    - GLMVVMKit
+    - GLServiceSDK
+    - iwallca
+    - MGJRouter
+    - TspEdgeBasicSDK
+    - TspEdgeCarShareSDK
+    - TspEdgeCore
+    - TspEdgeDigitalKeySDK
+    - TspEdgeDvrSDK
+    - TspEdgeIOVSDK
+    - TspEdgeLightShowSDK
+  https://gitee.com/sweetApp/cocoapods-specs.git:
+    - ReactiveObjC
+    - SWAdvertiseMapp
+    - SWAppletService
+    - SWCompatible
+    - SWCordovaDefaultPlugins
+    - SWCordovaKit
+    - SWDebugMapp
+    - SWDefaultService
+    - SWFramework
+    - SWImageTools
+    - SWLogManager
+    - SWNetworkKit
+    - SWSocialKit
+    - SWUIKit
+    - SWWebComponent
+    - SWWeexKit
+    - WeexPluginLoader
+  https://github.com/aliyun/aliyun-specs.git:
+    - AlicloudPush
+    - AlicloudSender
+    - AlicloudUT
+    - AlicloudUTDID
+    - AlicloudUtils
+    - EMASRest
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - AliyunOSSiOS
+    - AMapFoundation-NO-IDFA
+    - AMapLocation-NO-IDFA
+    - AMapNavi-NO-IDFA
+    - AMapSearch-NO-IDFA
+    - Base64
+    - BGFMDB
+    - BindingX
+    - BRPickerView
+    - Bugly
+    - CocoaLumberjack
+    - DACircularProgress
+    - DateTools
+    - DZNEmptyDataSet
+    - ExLogSDK
+    - FLAnimatedImage
+    - FMDB
+    - FSCalendar
+    - IQKeyboardManager
+    - ISVImageScrollView
+    - JCore
+    - JPush
+    - JSONModel
+    - lottie-ios
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - MMLayout
+    - MMPopupView
+    - NatAccelerometer
+    - NatAudio
+    - NatBattery
+    - NatCamera
+    - NatCommunication
+    - NatCompass
+    - NatDeviceInfo
+    - NatDeviceNetwork
+    - NatGeolocation
+    - NatModal
+    - NatRecorder
+    - NatScreen
+    - NatStream
+    - NatTransfer
+    - NatVibration
+    - NatVideo
+    - PPBadgeView
+    - Protobuf
+    - PulsingHalo
+    - QRCodeReaderViewController
+    - Reachability
+    - SAMKeychain
+    - SDCycleScrollView
+    - SDWebImage
+    - SensorsAnalyticsSDK
+    - SGPagingView
+    - SocketRocket
+    - SSKeychain
+    - SSZipArchive
+    - SVProgressHUD
+    - Toast
+    - TXLiteAVSDK_TRTC
+    - TZImagePickerController
+    - UICKeyChainStore
+    - "UIImage+ImageWithColor"
+    - UMAPM
+    - UMCCommon
+    - UMCShare
+    - UMDevice
+    - WebViewJavascriptBridge_WebKit
+    - WechatOpenSDK
+    - WeexActionSheet
+    - WeexNatCamera
+    - WeexNatCommunication
+    - WeexNatDeviceBattery
+    - WeexNatDeviceInfo
+    - WeexNatDeviceNetwork
+    - WeexNatDeviceScreen
+    - WeexNatDeviceVibration
+    - WeexNatGeolocation
+    - WeexNatMediaAudio
+    - WeexNatMediaVideo
+    - WeexNatModal
+    - WeexNatRecorder
+    - WeexNatSensorAccelerometer
+    - WeexNatSensorCompass
+    - WeexNatStream
+    - WeexNatTransfer
+    - YYImage
+    - YYText
+  https://github.com/volcengine/volcengine-specs.git:
+    - OneKit
+    - RangersAPM
+  https://gitlab.geely.com/F-ADMP-repository/specs.git:
+    - SWWeexDefaultPlugins
+  https://gitlab.geely.com/p-admp/iOS-sw-spec/ios-admpspecs.git:
+    - SweetCoreKit
+
+EXTERNAL SOURCES:
+  EcarxWatchSDK:
+    :git: https://gitlab.com/itrealm/EcarxWatchSDK.git
+    :tag: 0.4.0
+  GeelyLynkcoCarNetwork:
+    :path: "../sw_modules/GeelyLynkcoCarNetwork"
+  GeelyLynkcoCarService:
+    :path: "../sw_modules/GeelyLynkcoCarService"
+  GeelyLynkcoLogin:
+    :path: "../sw_modules/GeelyLynkcoLogin"
+  GeelyLynkcoMain:
+    :path: "../sw_modules/GeelyLynkcoMain"
+  GeelyLynkcoPlugin:
+    :path: "../sw_modules/GeelyLynkcoPlugin"
+  GeelyLynkcoThird:
+    :path: "../sw_modules/GeelyLynkcoThird"
+  GLUnlockOfflineKit:
+    :path: "../sw_modules/GLUnlockOfflineKit"
+  iOS-LynkCoIM:
+    :path: "../sw_modules/iOS-LynkCoIM"
+  LynkCoRPAModule:
+    :path: "../sw_modules/LynkCoRPAModule"
+  WeexSDK:
+    :git: https://gitee.com/sweetApp/incubator-weex.git
+
+CHECKOUT OPTIONS:
+  EcarxWatchSDK:
+    :git: https://gitlab.com/itrealm/EcarxWatchSDK.git
+    :tag: 0.4.0
+  WeexSDK:
+    :commit: 98704f862313d78a9a80d3071a7567f1c48dca99
+    :git: https://gitee.com/sweetApp/incubator-weex.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  AlicloudPush: ab6e76dd02cec791bb9ab789a58ab855b4f33243
+  AlicloudSender: 1f468b6bd962a099ffc19d45e3608b0fe98f259d
+  AlicloudUT: 6d1cf30d57d096b7e9bb4b069dd0ba6ad59a3338
+  AlicloudUTDID: 7323c443dcdf9a73e2224dc6ce51703671d7a765
+  AlicloudUtils: 66e0ba6ece62d7dd05e9dd95674b2c7811624c2f
+  AliyunOSSiOS: b8e5838b52f0e37b0cd2a593c487bb4a73148033
+  AMapFoundation-NO-IDFA: cc2ec7a2828ef292358ad594b7ee0ae21a7f097b
+  AMapLocation-NO-IDFA: 2a3edfee336b38481b892e1ecc85df0f6b365851
+  AMapNavi-NO-IDFA: 849ff24f59bbc55463a381ba3bbf04982b33aaa4
+  AMapSearch-NO-IDFA: 1ae997ebbd0eef87c7d240ed926eb5de51a2652d
+  Base64: cecfb41a004124895a7bcee567a89bae5a89d49b
+  BGFMDB: 48e6823027232402a678acc7f71484b1fc9171d0
+  BindingX: b3c6c1c5dcd8e50277cfc5daad09d7010c227524
+  BRPickerView: 2a1620caf218e37a3aca9626732719a419928b15
+  Bugly: afe841bba2ea6de6d432a3c125240a5e75949c55
+  CocoaLumberjack: 543c79c114dadc3b1aba95641d8738b06b05b646
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  EcarxWatchSDK: e66657375908255f3ec35f7e3edfff9375365481
+  EdkCryptHelper: 5306d11284fe824b0173b5d0bb7e46673cf68fd3
+  EMASRest: 8df6f87836767a9415ad5cc4af739bc9d215b475
+  ExDigitalKeySDK: 27b842a92a63073a70995e6b70c8194b1c134358
+  ExDigitalKeyTspServiceSDK: b12ef0325dce32c06a540d7f45ace408e4f7b748
+  ExLogSDK: 80ff563b002c8eacd06e26d92ceac68aeadb36e9
+  ExRPAControlSDK: 2f13602037d34dc297b74342bf07081cd9d107a6
+  FLAnimatedImage: 8f3e854ebf9680b71f0b6e700939687fc4d82b4b
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  FSCalendar: e6a2eb9c571bf0719ed797ef807e08426753c241
+  GeelyLynkcoCarNetwork: c9f9f032b05e511a0e6c094b31b63b41d0bd3bac
+  GeelyLynkcoCarService: ec1d3075709d30aa347a763fd2dfca68c135d317
+  GeelyLynkcoLogin: 38d9e52fcdc2e0ace28ffd942cd32dab0e5388b5
+  GeelyLynkcoMain: 86e1bd5879c4e69554fc5659f8070c8c52139093
+  GeelyLynkcoPlugin: da3d0cc301a0c2287e0906ffd89ddee5e234838e
+  GeelyLynkcoThird: c726c7384b75120d15fd179c7124112e26371262
+  GLBLEAuthSDK: c01a755b88f36bfcfdf8c0e551502882ab220d17
+  GLLogSDK: 025a014496ffc57a5d09140f7ecd906cc6bf6a29
+  GLMVVMKit: f010c9d3adbbee96fdcccbb4f952788833ea66ea
+  GLServiceSDK: e68fcf6edd52b16ba71f073d8b9f8f9c3a4dfbfb
+  GLTheme: 5467ff0614cea16ca4850580a6ebe216e3ccdaa4
+  GLUnlockOfflineKit: 2d52372a36b4f659e308faa209f66f7a4e219922
+  HHBaseLib: e11e05e1be7ba3128f97825f944a90f70c02bbe4
+  HHEnergySDK_Lynkco: c3be3baa8f01a9b8368a2a68178e44756520e8b2
+  HHFamilyPileSDK: 695837d92f9dfab75fa6ea5bad4b0e0f69f61cc5
+  iOS-LynkCoIM: 43abbeaabab9e237f3700bc2b409f396abec2388
+  IQKeyboardManager: 241cc94ccabc9deb8f8bd7d12f00d73288d13ecc
+  ISVImageScrollView: ba511d12a1661b40feb8921309c0854bf93ec749
+  iwallca: 7bc65fad85a3a311db8da4577b2731b3e37e7c52
+  JCore: cae516dd2bf1a73b578ce6e1065abd49e709e0f7
+  JPush: d0cead70ba223a6a3b52749899ebda830dfbc49a
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+  lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
+  LynkCoRPAModule: 971f60426557359bf06022c195616f359bfddb3e
+  LYVehicleShareModule: 17fffdd8b953759835954c825662f9ec499edd94
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MGJRouter: 37dbc59a4b11a06f7e13887e181cc72a2b58fc7e
+  MJExtension: 74ec83124a68891619fb7ba9c5c811bbf1691076
+  MJRefresh: ee5b68f639775462faba4db0fd243baf4d42c2cf
+  MMLayout: 3fb59d58eeb8656c64e61d550fb0088e10666c11
+  MMPopupView: fe1dd010824029dfb632fdf1a531db5dd5386020
+  NatAccelerometer: fa31a670e153ea5b84d937fd84799ff352b6f9fc
+  NatAudio: b674c999c5f19b6079e1c29dcb77e3aadbd5907a
+  NatBattery: f3a8acc1c56231414c7210dcb291f30def0e4844
+  NatCamera: 99304f801d5c40511114a372e6c25edf3b56693e
+  NatCommunication: 0f817c81d9443a7db5dd08e6dbcab6262b4e1e35
+  NatCompass: 545a3fcd2b4b2c5fb13ba593dc700c38ecbece4f
+  NatDeviceInfo: 7cbf18c7cacf3c612d08bee01bdfae3e274afdae
+  NatDeviceNetwork: 9444b1c21f812732db3891be47cd568b686ca90b
+  NatGeolocation: d209a2e3d0560ef55d4cda53d5292a4edb5a7b2a
+  NatModal: d084214ec79cb4992814c08bbc64ee4097ea4ea3
+  NatRecorder: 27386fb313174e6f9139cf7b38cef4567bc35826
+  NatScreen: c60e27b4980228331e87b29c7613c90cdec25587
+  NatStream: 26c695d0b6495df33d6d065ed7ec35b89f3754c0
+  NatTransfer: 3fdf4ef411560c9a016261e064d5a8dea4e05a3d
+  NatVibration: da5234119c5a43e43c21c2f62b31c07d075324ca
+  NatVideo: b237ef24322bbdbb73a4f244f476f39618cf5876
+  OneKit: b7b9d829c37beae5deb45786fb7e437fcba5093d
+  PPBadgeView: b50a223638970fd0781e8753250385864b6dd2fe
+  Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
+  PulsingHalo: 1a9c6b65a8e12ac9eee1627fc8476efcce8e1918
+  QRCodeReaderViewController: e8f27d035b3e72b1d4b1c61ff66458287e3be0ff
+  RangersAPM: 65e7c4f1932fd89d08a2cbf615bdba567b90c682
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  ReactiveObjC: 949fef298d4a26094ae2e55ba7ccef1274e98cbb
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+  SDCycleScrollView: a0d74c3384caa72bdfc81470bdbc8c14b3e1fbcf
+  SDWebImage: 53179a2dba77246efa8a9b85f5c5b21f8f43e38f
+  SensorsAnalyticsSDK: 7555b4a06adb7a6fce03b22c4da2cb82093a2416
+  SGPagingView: 2ac3cec4ea8d1156c7522e521e2799123602ae28
+  SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
+  SSKeychain: 55cc80f66f5c73da827e3077f02e43528897db41
+  SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SWAdvertiseMapp: ae8d6e0bcd841c8eedebffa1557baa5c3f7a00a8
+  SWAppletService: 351cfc20bd7484493e38ee7f2866133bbd4b368f
+  SWCompatible: 7c301231a0f73f04db6975de651e455495f1f4f0
+  SWCordovaDefaultPlugins: e1d9544cc87332d2b11349743619781c00fe8e54
+  SWCordovaKit: 0f79050862b2f258d1a1edf4cf6c1ecc29d2322c
+  SWDebugMapp: 2e75659bb8ae9560ccc31a50977997d92be4d23e
+  SWDefaultService: 34e4c8764a88b7e63f1b41b1d3eef4da8f83da18
+  SweetCoreKit: 38198867bbfd2e6ecb7d7dec06d8a8910473b1b5
+  SWFramework: fc160ba82cbbfe76aeae83ec3ab83b3cbe289639
+  SWImageTools: 2cba32b909db80c299eb7b9acae6f5d8b1b30e6e
+  SWLogManager: 3856937f5c19002d4cf0ec8ea4d12206d8742335
+  SWNetworkKit: 16cb5f001dcd634b06102d52d9e8ab1e53e5d6bb
+  SWSocialKit: 37e40c46253ecc62798109e434d9c93917c728d1
+  SWUIKit: ae76a61524d8555af305fe8d3d0cd4d03ff34520
+  SWWebComponent: 692838590950d2a9c54d3395dd45c430352657a5
+  SWWeexDefaultPlugins: 712867d09d1e976c69fc29d740a2a170434dd39d
+  SWWeexKit: 3af1bad9b81428ed2e7ee251c547571c49f711c6
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  TspEdgeBasicSDK: 6dc46a1f689ff9bf34c7c867e18fa51eb06afa2b
+  TspEdgeCarShareSDK: 4fdd7306c748f68d8e5135072426e7ddcb43be50
+  TspEdgeCore: ec6adffa842c3993fc26880a0a1906eecd2667db
+  TspEdgeDigitalKeySDK: 9d34033aed51fcbf91e605dc9fa3e33e9a878f21
+  TspEdgeDvrSDK: 321c33644d6ce5d08b7fdec3e1db1101e22fe214
+  TspEdgeIOVSDK: d03f9ccbcde345b99c1f8f4ae728a4e6bb2f98a8
+  TspEdgeLightShowSDK: 002fb0b778bd24b6d5bc41d5c8c615a247946d49
+  TXLiteAVSDK_TRTC: 4e5820a339ae774153316ebd446d3fd6238a91b3
+  TZImagePickerController: d8c57e56fe6990a961d03134121a091c31015aa5
+  UICKeyChainStore: ba3bff2c762b12db1e516f395c837dd25298b05e
+  "UIImage+ImageWithColor": 891401f732f2f332fefe68c2332c6c955c2a879c
+  UMAPM: 5ab988b8bedfd090ee2307cb80530ba79b8ac264
+  UMCCommon: 67766370204f54467c2271a13397c403992ebeec
+  UMCShare: e14e1399673fa361cddbde3a05b3743e10f673f7
+  UMDevice: 053478c4b4d7292f31f0a275c227d3c4007a5571
+  WebViewJavascriptBridge_WebKit: 3fba9150bbdea8258f69db2e5f7c74e191ee94c2
+  WechatOpenSDK: 6a4d1436c15b3b5fe2a0bd383f3046010186da44
+  WeexActionSheet: 50314b9dc5e0a0ca9dd956e69bb0d06bff455116
+  WeexNatCamera: b491f6d72384a195589da5d07ab49af61e427c67
+  WeexNatCommunication: c311619645926ba22a88261138f0513d08291729
+  WeexNatDeviceBattery: d2711ec24925cf1f958cb4297d297246f8539c99
+  WeexNatDeviceInfo: 8ae4585807c6024a9b71eae474fb1fe3e2bd2e9d
+  WeexNatDeviceNetwork: d6ec163bf16671af18ddc4f55bb1ea83b511db4d
+  WeexNatDeviceScreen: c022cc401482ef33f7af3608043f418b11f5719f
+  WeexNatDeviceVibration: 0087425d3f4fa687364a9eecf553846d35ab77f5
+  WeexNatGeolocation: c22a30601c0d5829b3f55941b47c38cc14637881
+  WeexNatMediaAudio: afefb553c0bfbe6f2cecb97d259a279f000f3c0b
+  WeexNatMediaVideo: 1569450ac13451424f397434bdd6cfd0b071ee1c
+  WeexNatModal: a7aaa8cefd0fdad745ea62b52bc8108a1ee68529
+  WeexNatRecorder: aa8883a36eec61c487a43918302ea2d6e4b2fcca
+  WeexNatSensorAccelerometer: 8a31ccd0aaf536fb1f2f22dbf270574df5f111f6
+  WeexNatSensorCompass: c864d8160cb28aa0b53047e5791d03aed7100f60
+  WeexNatStream: 38a2d5304f4ccc052d25d320fb5b0b4ba6de44a8
+  WeexNatTransfer: 5c2ec341bb449141520f403ad00c719e2a1c54c4
+  WeexPluginLoader: ee0a24c4e62658b535e0b25994f0c0187c920a9a
+  WeexSDK: 6d17ffbafb04762fa490b29dc9eb9bf0bc86da2b
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+
+PODFILE CHECKSUM: 7f9859403e3ac63c926406daf4ff9823331dcb63
+
+COCOAPODS: 1.11.2
