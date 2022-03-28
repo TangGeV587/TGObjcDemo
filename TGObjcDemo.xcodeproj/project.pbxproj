@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41EC2C23C70D883CAD81C70E /* Pods_TGObjcDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C957C4051A589FEA101BB2CC /* Pods_TGObjcDemo.framework */; };
 		9E0D435F27EC5F270074B761 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0D435E27EC5F270074B761 /* AppDelegate.m */; };
 		9E0D436227EC5F270074B761 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0D436127EC5F270074B761 /* SceneDelegate.m */; };
 		9E0D436527EC5F270074B761 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0D436427EC5F270074B761 /* ViewController.m */; };
@@ -14,9 +15,15 @@
 		9E0D436A27EC5F280074B761 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E0D436927EC5F280074B761 /* Assets.xcassets */; };
 		9E0D436D27EC5F280074B761 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E0D436B27EC5F280074B761 /* LaunchScreen.storyboard */; };
 		9E0D437027EC5F280074B761 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0D436F27EC5F280074B761 /* main.m */; };
+		9E8AB22227F144850081D9E2 /* SubjectSubController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8AB22127F144850081D9E2 /* SubjectSubController.m */; };
+		9E8AB22427F1BEC80081D9E2 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9E8AB22327F1BEC80081D9E2 /* Podfile */; };
+		9EEE843827ED9EAC00E3E948 /* RACSubjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEE843727ED9EAC00E3E948 /* RACSubjectViewController.m */; };
+		9EEE843B27ED9ED100E3E948 /* TGDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEE843A27ED9ED100E3E948 /* TGDataItem.m */; };
+		9EEE843E27EDA7A500E3E948 /* RacListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEE843D27EDA7A500E3E948 /* RacListTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E98E73A19FCA9C51AA4E0D6 /* Pods-TGObjcDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGObjcDemo.debug.xcconfig"; path = "Target Support Files/Pods-TGObjcDemo/Pods-TGObjcDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		9E0D435A27EC5F270074B761 /* TGObjcDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGObjcDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E0D435D27EC5F270074B761 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9E0D435E27EC5F270074B761 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +36,17 @@
 		9E0D436C27EC5F280074B761 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E0D436E27EC5F280074B761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E0D436F27EC5F280074B761 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E8AB22027F144850081D9E2 /* SubjectSubController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubjectSubController.h; sourceTree = "<group>"; };
+		9E8AB22127F144850081D9E2 /* SubjectSubController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubjectSubController.m; sourceTree = "<group>"; };
+		9E8AB22327F1BEC80081D9E2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		9EEE843627ED9EAC00E3E948 /* RACSubjectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACSubjectViewController.h; sourceTree = "<group>"; };
+		9EEE843727ED9EAC00E3E948 /* RACSubjectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACSubjectViewController.m; sourceTree = "<group>"; };
+		9EEE843927ED9ED100E3E948 /* TGDataItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGDataItem.h; sourceTree = "<group>"; };
+		9EEE843A27ED9ED100E3E948 /* TGDataItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGDataItem.m; sourceTree = "<group>"; };
+		9EEE843C27EDA7A500E3E948 /* RacListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RacListTableViewController.h; sourceTree = "<group>"; };
+		9EEE843D27EDA7A500E3E948 /* RacListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RacListTableViewController.m; sourceTree = "<group>"; };
+		C4296924B4E7E804D7221DE3 /* Pods-TGObjcDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGObjcDemo.release.xcconfig"; path = "Target Support Files/Pods-TGObjcDemo/Pods-TGObjcDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C957C4051A589FEA101BB2CC /* Pods_TGObjcDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TGObjcDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +54,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41EC2C23C70D883CAD81C70E /* Pods_TGObjcDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D4F1075CF88756E1ECFF5DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C957C4051A589FEA101BB2CC /* Pods_TGObjcDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9E0D435127EC5F260074B761 = {
 			isa = PBXGroup;
 			children = (
 				9E0D435C27EC5F270074B761 /* TGObjcDemo */,
 				9E0D435B27EC5F270074B761 /* Products */,
+				DDD1777848B2291D3A471A06 /* Pods */,
+				4D4F1075CF88756E1ECFF5DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,10 +90,13 @@
 		9E0D435C27EC5F270074B761 /* TGObjcDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9EEE843527ED9C0900E3E948 /* Rac */,
 				9E0D435D27EC5F270074B761 /* AppDelegate.h */,
 				9E0D435E27EC5F270074B761 /* AppDelegate.m */,
 				9E0D436027EC5F270074B761 /* SceneDelegate.h */,
 				9E0D436127EC5F270074B761 /* SceneDelegate.m */,
+				9EEE843927ED9ED100E3E948 /* TGDataItem.h */,
+				9EEE843A27ED9ED100E3E948 /* TGDataItem.m */,
 				9E0D436327EC5F270074B761 /* ViewController.h */,
 				9E0D436427EC5F270074B761 /* ViewController.m */,
 				9E0D436627EC5F270074B761 /* Main.storyboard */,
@@ -76,6 +108,29 @@
 			path = TGObjcDemo;
 			sourceTree = "<group>";
 		};
+		9EEE843527ED9C0900E3E948 /* Rac */ = {
+			isa = PBXGroup;
+			children = (
+				9E8AB22327F1BEC80081D9E2 /* Podfile */,
+				9EEE843627ED9EAC00E3E948 /* RACSubjectViewController.h */,
+				9EEE843727ED9EAC00E3E948 /* RACSubjectViewController.m */,
+				9EEE843C27EDA7A500E3E948 /* RacListTableViewController.h */,
+				9EEE843D27EDA7A500E3E948 /* RacListTableViewController.m */,
+				9E8AB22027F144850081D9E2 /* SubjectSubController.h */,
+				9E8AB22127F144850081D9E2 /* SubjectSubController.m */,
+			);
+			path = Rac;
+			sourceTree = "<group>";
+		};
+		DDD1777848B2291D3A471A06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E98E73A19FCA9C51AA4E0D6 /* Pods-TGObjcDemo.debug.xcconfig */,
+				C4296924B4E7E804D7221DE3 /* Pods-TGObjcDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,9 +138,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E0D437327EC5F280074B761 /* Build configuration list for PBXNativeTarget "TGObjcDemo" */;
 			buildPhases = (
+				310F8F4492E8237F207323CB /* [CP] Check Pods Manifest.lock */,
 				9E0D435627EC5F270074B761 /* Sources */,
 				9E0D435727EC5F270074B761 /* Frameworks */,
 				9E0D435827EC5F270074B761 /* Resources */,
+				9DF8BF4B624625E98C6BFEEF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,11 +192,54 @@
 			files = (
 				9E0D436D27EC5F280074B761 /* LaunchScreen.storyboard in Resources */,
 				9E0D436A27EC5F280074B761 /* Assets.xcassets in Resources */,
+				9E8AB22427F1BEC80081D9E2 /* Podfile in Resources */,
 				9E0D436827EC5F270074B761 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		310F8F4492E8237F207323CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TGObjcDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DF8BF4B624625E98C6BFEEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TGObjcDemo/Pods-TGObjcDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TGObjcDemo/Pods-TGObjcDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TGObjcDemo/Pods-TGObjcDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9E0D435627EC5F270074B761 /* Sources */ = {
@@ -147,9 +247,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E0D436527EC5F270074B761 /* ViewController.m in Sources */,
+				9EEE843B27ED9ED100E3E948 /* TGDataItem.m in Sources */,
+				9EEE843E27EDA7A500E3E948 /* RacListTableViewController.m in Sources */,
 				9E0D435F27EC5F270074B761 /* AppDelegate.m in Sources */,
 				9E0D437027EC5F280074B761 /* main.m in Sources */,
+				9EEE843827ED9EAC00E3E948 /* RACSubjectViewController.m in Sources */,
 				9E0D436227EC5F270074B761 /* SceneDelegate.m in Sources */,
+				9E8AB22227F144850081D9E2 /* SubjectSubController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +391,7 @@
 		};
 		9E0D437427EC5F280074B761 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E98E73A19FCA9C51AA4E0D6 /* Pods-TGObjcDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -313,6 +418,7 @@
 		};
 		9E0D437527EC5F280074B761 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4296924B4E7E804D7221DE3 /* Pods-TGObjcDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

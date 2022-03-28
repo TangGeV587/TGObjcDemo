@@ -1,0 +1,6 @@
+framework module Pods_TGObjcDemo {
+  umbrella header "Pods-TGObjcDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
