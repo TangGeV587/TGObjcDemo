@@ -16,21 +16,33 @@
 
 
 - (void)testSubscribe1 {
-    //该对象根据 capacity 确定保存他发送过的值的个数，并且重新发送这些值给新的订阅者。对错误信息和完成信息也是一样的
-    RACReplaySubject *subject = [RACReplaySubject replaySubjectWithCapacity:RACReplaySubjectUnlimitedCapacity];
-    
-    [subject subscribeNext:^(id  _Nullable x) {
-        NSLog(@"subscribe11 -- %@", x);
+    RACSignal *signal = [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
+        // 发送请求
+        NSLog(@"发送请求啦");
+        // 发送信号
+        [subscriber sendNext:@"ws"];
+        return nil;
     }];
-    [[self signal1] subscribe:subject];
+    //2. 创建连接类
+    RACMulticastConnection *connection = [signal publish];
+    [connection.signal subscribeNext:^(id x) {
+        NSLog(@"%@", x);
+    }];
+    [connection.signal subscribeNext:^(id x) {
+         NSLog(@"%@", x);
+    }];
+    [connection.signal subscribeNext:^(id x) {
+         NSLog(@"%@", x);
+    }];
+    //3. 连接。只有连接了才会把信号源变为热信号
+    [connection connect];
     
-    [[self signal2] subscribe:subject];
     //打印日志：
     /**
-     2022-04-02 11:17:07.065200+0800 TGObjcDemo[92670:10952024] subscribe11 -- 1
-     2022-04-02 11:17:07.065372+0800 TGObjcDemo[92670:10952024] subscribe11 -- 2
-     2022-04-02 11:17:07.065496+0800 TGObjcDemo[92670:10952024] signal1 - die
-     2022-04-02 11:17:07.065608+0800 TGObjcDemo[92670:10952024] signal2 - die
+     2022-04-02 15:47:20.490941+0800 TGObjcDemo[1839:11220045] 发送请求啦
+     2022-04-02 15:47:20.491057+0800 TGObjcDemo[1839:11220045] ws
+     2022-04-02 15:47:20.491140+0800 TGObjcDemo[1839:11220045] ws
+     2022-04-02 15:47:20.491224+0800 TGObjcDemo[1839:11220045] ws
      */
 }
 

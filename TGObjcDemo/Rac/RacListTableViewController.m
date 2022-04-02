@@ -58,6 +58,8 @@
         _dataSource = @[
             [[TGDataItem alloc] init:@"Subject" withClassName:@"RACSubjectViewController"],
             [[TGDataItem alloc] init:@"behaviorSubject" withClassName:@"BehaviorSubjectController"],//
+            [[TGDataItem alloc] init:@"RacMacros" withClassName:@"RacMacrosController"],
+            [[TGDataItem alloc] init:@"RACMulticastConnection" withClassName:@"RACMulticastConnectionController"]
         ];
     }
     return _dataSource;

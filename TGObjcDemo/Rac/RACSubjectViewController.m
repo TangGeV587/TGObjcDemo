@@ -29,6 +29,17 @@
     [self.view addSubview:self.button];
 }
 
+- (void)testRACSubject {
+    RACSubject *subject = [[RACSubject alloc] init];
+    [subject subscribeNext:^(id  _Nullable x) {
+        NSLog(@"%@",x);
+    }];
+    
+    [subject sendNext:@"test1"];
+    [subject sendNext:@"test2"];
+}
+
+
 #pragma mark---lazy loading
 - (UIButton *)button {
     if (!_button) {

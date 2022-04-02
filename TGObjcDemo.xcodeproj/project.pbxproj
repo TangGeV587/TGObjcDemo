@@ -21,6 +21,12 @@
 		9E8AB23127F68D8E0081D9E2 /* TGObjcDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8AB23027F68D8D0081D9E2 /* TGObjcDemoTests.m */; };
 		9E8AB27927F698870081D9E2 /* TGTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8AB27827F698870081D9E2 /* TGTest.m */; };
 		9E8AB27C27F7E8C00081D9E2 /* ReplaySubjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8AB27B27F7E8C00081D9E2 /* ReplaySubjectController.m */; };
+		9E8AB27F27F827200081D9E2 /* SignalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8AB27E27F827200081D9E2 /* SignalViewController.m */; };
+		9E8AB28227F82AB30081D9E2 /* SequenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8AB28127F82AB30081D9E2 /* SequenceViewController.m */; };
+		9E8AB28527F82E4E0081D9E2 /* flags.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E8AB28427F82E4E0081D9E2 /* flags.plist */; };
+		9E8AB28827F833850081D9E2 /* RACMulticastConnectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8AB28727F833850081D9E2 /* RACMulticastConnectionController.m */; };
+		9E8AB28B27F83B560081D9E2 /* RacMacrosController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8AB28A27F83B560081D9E2 /* RacMacrosController.m */; };
+		9E8AB28F27F83BB00081D9E2 /* TGDemoBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8AB28E27F83BB00081D9E2 /* TGDemoBaseController.m */; };
 		9EEE843827ED9EAC00E3E948 /* RACSubjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEE843727ED9EAC00E3E948 /* RACSubjectViewController.m */; };
 		9EEE843B27ED9ED100E3E948 /* TGDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEE843A27ED9ED100E3E948 /* TGDataItem.m */; };
 		9EEE843E27EDA7A500E3E948 /* RacListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEE843D27EDA7A500E3E948 /* RacListTableViewController.m */; };
@@ -61,6 +67,17 @@
 		9E8AB27827F698870081D9E2 /* TGTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTest.m; sourceTree = "<group>"; };
 		9E8AB27A27F7E8C00081D9E2 /* ReplaySubjectController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReplaySubjectController.h; sourceTree = "<group>"; };
 		9E8AB27B27F7E8C00081D9E2 /* ReplaySubjectController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReplaySubjectController.m; sourceTree = "<group>"; };
+		9E8AB27D27F827200081D9E2 /* SignalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignalViewController.h; sourceTree = "<group>"; };
+		9E8AB27E27F827200081D9E2 /* SignalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignalViewController.m; sourceTree = "<group>"; };
+		9E8AB28027F82AB30081D9E2 /* SequenceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SequenceViewController.h; sourceTree = "<group>"; };
+		9E8AB28127F82AB30081D9E2 /* SequenceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SequenceViewController.m; sourceTree = "<group>"; };
+		9E8AB28427F82E4E0081D9E2 /* flags.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = flags.plist; sourceTree = "<group>"; };
+		9E8AB28627F833850081D9E2 /* RACMulticastConnectionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACMulticastConnectionController.h; sourceTree = "<group>"; };
+		9E8AB28727F833850081D9E2 /* RACMulticastConnectionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACMulticastConnectionController.m; sourceTree = "<group>"; };
+		9E8AB28927F83B560081D9E2 /* RacMacrosController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RacMacrosController.h; sourceTree = "<group>"; };
+		9E8AB28A27F83B560081D9E2 /* RacMacrosController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RacMacrosController.m; sourceTree = "<group>"; };
+		9E8AB28D27F83BB00081D9E2 /* TGDemoBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGDemoBaseController.h; sourceTree = "<group>"; };
+		9E8AB28E27F83BB00081D9E2 /* TGDemoBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGDemoBaseController.m; sourceTree = "<group>"; };
 		9EEE843627ED9EAC00E3E948 /* RACSubjectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACSubjectViewController.h; sourceTree = "<group>"; };
 		9EEE843727ED9EAC00E3E948 /* RACSubjectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACSubjectViewController.m; sourceTree = "<group>"; };
 		9EEE843927ED9ED100E3E948 /* TGDataItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGDataItem.h; sourceTree = "<group>"; };
@@ -124,6 +141,8 @@
 		9E0D435C27EC5F270074B761 /* TGObjcDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9E8AB28C27F83B8B0081D9E2 /* Utils */,
+				9E8AB28327F82E320081D9E2 /* Data */,
 				9EEE843527ED9C0900E3E948 /* Rac */,
 				9E0D435D27EC5F270074B761 /* AppDelegate.h */,
 				9E0D435E27EC5F270074B761 /* AppDelegate.m */,
@@ -151,6 +170,23 @@
 			path = TGObjcDemoTests;
 			sourceTree = "<group>";
 		};
+		9E8AB28327F82E320081D9E2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9E8AB28427F82E4E0081D9E2 /* flags.plist */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		9E8AB28C27F83B8B0081D9E2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9E8AB28D27F83BB00081D9E2 /* TGDemoBaseController.h */,
+				9E8AB28E27F83BB00081D9E2 /* TGDemoBaseController.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		9EEE843527ED9C0900E3E948 /* Rac */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +200,14 @@
 				9E8AB22827F48AFE0081D9E2 /* BehaviorSubjectController.m */,
 				9E8AB27A27F7E8C00081D9E2 /* ReplaySubjectController.h */,
 				9E8AB27B27F7E8C00081D9E2 /* ReplaySubjectController.m */,
+				9E8AB27D27F827200081D9E2 /* SignalViewController.h */,
+				9E8AB27E27F827200081D9E2 /* SignalViewController.m */,
+				9E8AB28027F82AB30081D9E2 /* SequenceViewController.h */,
+				9E8AB28127F82AB30081D9E2 /* SequenceViewController.m */,
+				9E8AB28627F833850081D9E2 /* RACMulticastConnectionController.h */,
+				9E8AB28727F833850081D9E2 /* RACMulticastConnectionController.m */,
+				9E8AB28927F83B560081D9E2 /* RacMacrosController.h */,
+				9E8AB28A27F83B560081D9E2 /* RacMacrosController.m */,
 			);
 			path = Rac;
 			sourceTree = "<group>";
@@ -265,6 +309,7 @@
 			files = (
 				9E0D436D27EC5F280074B761 /* LaunchScreen.storyboard in Resources */,
 				9E0D436A27EC5F280074B761 /* Assets.xcassets in Resources */,
+				9E8AB28527F82E4E0081D9E2 /* flags.plist in Resources */,
 				9E0D436827EC5F270074B761 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,12 +412,17 @@
 				9E0D436527EC5F270074B761 /* ViewController.m in Sources */,
 				9EEE843B27ED9ED100E3E948 /* TGDataItem.m in Sources */,
 				9EEE843E27EDA7A500E3E948 /* RacListTableViewController.m in Sources */,
+				9E8AB28827F833850081D9E2 /* RACMulticastConnectionController.m in Sources */,
 				9E0D435F27EC5F270074B761 /* AppDelegate.m in Sources */,
 				9E0D437027EC5F280074B761 /* main.m in Sources */,
 				9E8AB27C27F7E8C00081D9E2 /* ReplaySubjectController.m in Sources */,
+				9E8AB27F27F827200081D9E2 /* SignalViewController.m in Sources */,
+				9E8AB28227F82AB30081D9E2 /* SequenceViewController.m in Sources */,
+				9E8AB28B27F83B560081D9E2 /* RacMacrosController.m in Sources */,
 				9EEE843827ED9EAC00E3E948 /* RACSubjectViewController.m in Sources */,
 				9E0D436227EC5F270074B761 /* SceneDelegate.m in Sources */,
 				9E8AB22227F144850081D9E2 /* SubjectSubController.m in Sources */,
+				9E8AB28F27F83BB00081D9E2 /* TGDemoBaseController.m in Sources */,
 				9E8AB22927F48AFE0081D9E2 /* BehaviorSubjectController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
