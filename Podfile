@@ -7,4 +7,7 @@ target 'TGObjcDemo' do
 
   pod 'ReactiveObjC'
 
+  target 'TGObjcDemoTests' do
+    pod 'ReactiveObjC'
+  end
 end

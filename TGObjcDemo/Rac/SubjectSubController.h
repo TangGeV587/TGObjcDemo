@@ -11,7 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface SubjectSubController : UIViewController
 
-@property(nonatomic, strong)RACSubject *subject;
+//@property(nonatomic, strong)RACSubject *subject;
+@property(nonatomic, strong)RACReplaySubject *subject;
 
 @end
 

@@ -6,6 +6,8 @@
 //
 
 #import "RACSubjectViewController.h"
+#import "SubjectSubController.h"
+#import <ReactiveObjC.h>
 
 @interface RACSubjectViewController ()
 
@@ -40,9 +42,28 @@
 #pragma mark -- btnOnClick
 - (void)btnOnClick {
     
-//    [self.subject sendNext:@"ws"];
+    __weak typeof(self) weakSelf = self;
+//    RACSubject *subject = [RACSubject subject];
+//    [subject subscribeNext:^(NSString  *title) {
+//
+//        [weakSelf.button setTitle:title forState:UIControlStateNormal];
+//    } completed:^{
+//
+//        NSLog(@"OK拉");
+//    }];
     
-    [self.navigationController popViewControllerAnimated:YES];
+    RACReplaySubject *replaySubject = [RACReplaySubject subject];
+    [replaySubject subscribeNext:^(NSString  *title) {
+        NSLog(@"---> %@",title);
+        [weakSelf.button setTitle:title forState:UIControlStateNormal];
+
+    } completed:^{
+        NSLog(@"OK拉");
+    }];
+    
+    SubjectSubController *subjectVC = [[SubjectSubController alloc] init];
+    subjectVC.subject = replaySubject;
+    [self.navigationController pushViewController:subjectVC animated:YES];
 }
 
 /**

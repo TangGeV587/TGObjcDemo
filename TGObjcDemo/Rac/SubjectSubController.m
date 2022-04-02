@@ -40,8 +40,9 @@
 #pragma mark -- btnOnClick
 - (void)btnOnClick {
     
-    [self.subject sendNext:@"ws"];
-    
+//    [self.subject sendNext:@"nnn"];
+//    [self.subject sendCompleted];
+    [self.subject sendNext:@"nyy"];
     [self.navigationController popViewControllerAnimated:YES];
 }
 
@@ -71,5 +72,6 @@
 
  */
 
+//RACBehaviorSubject
 
 @end

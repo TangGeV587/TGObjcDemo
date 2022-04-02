@@ -57,6 +57,7 @@
     if (_dataSource == nil) {
         _dataSource = @[
             [[TGDataItem alloc] init:@"Subject" withClassName:@"RACSubjectViewController"],
+            [[TGDataItem alloc] init:@"behaviorSubject" withClassName:@"BehaviorSubjectController"],//
         ];
     }
     return _dataSource;
