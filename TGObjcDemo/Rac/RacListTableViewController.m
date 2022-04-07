@@ -56,10 +56,19 @@
 - (NSArray *)dataSource {
     if (_dataSource == nil) {
         _dataSource = @[
+            [[TGDataItem alloc] init:@"Signal" withClassName:@"SignalViewController"],
             [[TGDataItem alloc] init:@"Subject" withClassName:@"RACSubjectViewController"],
             [[TGDataItem alloc] init:@"behaviorSubject" withClassName:@"BehaviorSubjectController"],//
+            [[TGDataItem alloc] init:@"ReplaySubject" withClassName:@"ReplaySubjectController"],
             [[TGDataItem alloc] init:@"RacMacros" withClassName:@"RacMacrosController"],
-            [[TGDataItem alloc] init:@"RACMulticastConnection" withClassName:@"RACMulticastConnectionController"]
+            [[TGDataItem alloc] init:@"RACMulticastConnection" withClassName:@"RACMulticastConnectionController"],
+            [[TGDataItem alloc] init:@"Sequence" withClassName:@"SequenceViewController"],
+            [[TGDataItem alloc] init:@"RACCommand、switchToLatest" withClassName:@"RACCommondController"],
+            [[TGDataItem alloc] init:@"过滤" withClassName:@"RACFilterController"],
+            [[TGDataItem alloc] init:@"映射" withClassName:@"RACMapController"],
+            [[TGDataItem alloc] init:@"组合" withClassName:@"RACCombineController"],
+            [[TGDataItem alloc] init:@"bind" withClassName:@"RACBindController"],
+            //RACBindController
         ];
     }
     return _dataSource;

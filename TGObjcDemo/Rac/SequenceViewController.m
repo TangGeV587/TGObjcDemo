@@ -53,4 +53,14 @@
     }];
 }
 
+- (void)filterTuple {
+    //使用RACTuplePack封装元组
+    RACTuple *racTuple = RACTuplePack(@"字符串1",@"字符串2");
+    NSLog(@"测试racTuple:%@",racTuple);
+    
+    //使用RACTupleUnpack解元组
+    RACTupleUnpack(NSString *str1,NSString *str2) = racTuple;
+    NSLog(@"测试RACTupleUnpack：%@-%@",str1,str2);
+}
+
 @end

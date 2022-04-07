@@ -15,11 +15,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self setupUI];
+    [self initialUI];
 }
 
-- (void)setupUI {
+- (void)initialUI {
     self.view.backgroundColor = [UIColor whiteColor];
+}
+
+- (CGFloat)screenWidth {
+    return [UIScreen mainScreen].bounds.size.width;
+}
+
+- (CGFloat)screenHeight {
+    return [UIScreen mainScreen].bounds.size.height;
 }
 
 @end

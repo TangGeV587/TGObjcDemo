@@ -20,7 +20,7 @@
 }
 
 - (void)setupUI {
-    self.navigationItem.title = @"BehaviorSubject";
+    self.navigationItem.title = @"replaySubject";
     self.view.backgroundColor = [UIColor whiteColor];
 }
 

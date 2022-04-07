@@ -1,21 +1,31 @@
 //
-//  TGTest.m
-//  TGObjcDemoTests
+//  RACBindController.m
+//  TGObjcDemo
 //
-//  Created by e-zhaoyutang on 2022/4/1.
+//  Created by e-zhaoyutang on 2022/4/7.
 //
 
-#import <XCTest/XCTest.h>
+#import "RACBindController.h"
 #import <ReactiveObjC.h>
-#import <ReactiveObjC/RACReturnSignal.h>
-@interface TGTest : XCTestCase
+#import "RACReturnSignal.h"
+
+@interface RACBindController ()
 
 @end
 
-@implementation TGTest
+@implementation RACBindController
 
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    [self setupUI];
+}
 
-- (void)testSubscribe1 {
+- (void)setupUI {
+    self.navigationItem.title = @"bind";
+    
+}
+
+- (void)testBind {
     
     //创建信号
     RACSubject *subject = [RACSubject subject];
@@ -40,5 +50,9 @@
     [subject sendNext:@"uuuuuu"];
 }
 
+/*************************总结**********************/
+
+// bind（绑定）的使用思想和Hook的一样---> 都是拦截API从而可以对数据进行操作，，而影响返回数据。
+// 发送信号的时候会来到30行的block。在这个block里我们可以对数据进行一些操作，那么35行打印的value和订阅绑定信号后的value就会变了。变成什么样随你喜欢喽。
 
 @end
