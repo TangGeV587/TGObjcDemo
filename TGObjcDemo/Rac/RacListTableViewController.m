@@ -68,7 +68,10 @@
             [[TGDataItem alloc] init:@"映射" withClassName:@"RACMapController"],
             [[TGDataItem alloc] init:@"组合" withClassName:@"RACCombineController"],
             [[TGDataItem alloc] init:@"bind" withClassName:@"RACBindController"],
-            //RACBindController
+            [[TGDataItem alloc] init:@"时间操作" withClassName:@"RACOtherController"],
+            [[TGDataItem alloc] init:@"常用" withClassName:@"RACUICommonController"],
+            [[TGDataItem alloc] init:@"MVVM" withClassName:@"LoginViewController"],
+            //LoginViewController
         ];
     }
     return _dataSource;
