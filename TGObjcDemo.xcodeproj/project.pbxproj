@@ -37,6 +37,7 @@
 		9E8AB2A7280006B90081D9E2 /* TGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8AB2A6280006B90081D9E2 /* TGView.m */; };
 		9E8AB2AC280022B20081D9E2 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8AB2AA280022B20081D9E2 /* LoginViewController.m */; };
 		9E8AB2AD280022B20081D9E2 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E8AB2AB280022B20081D9E2 /* LoginViewController.xib */; };
+		9E8AB2B0280414390081D9E2 /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8AB2AF280414390081D9E2 /* LoginViewModel.m */; };
 		9EEE843827ED9EAC00E3E948 /* RACSubjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEE843727ED9EAC00E3E948 /* RACSubjectViewController.m */; };
 		9EEE843B27ED9ED100E3E948 /* TGDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEE843A27ED9ED100E3E948 /* TGDataItem.m */; };
 		9EEE843E27EDA7A500E3E948 /* RacListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEE843D27EDA7A500E3E948 /* RacListTableViewController.m */; };
@@ -107,6 +108,8 @@
 		9E8AB2A9280022B20081D9E2 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		9E8AB2AA280022B20081D9E2 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		9E8AB2AB280022B20081D9E2 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		9E8AB2AE280414390081D9E2 /* LoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		9E8AB2AF280414390081D9E2 /* LoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
 		9EEE843627ED9EAC00E3E948 /* RACSubjectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACSubjectViewController.h; sourceTree = "<group>"; };
 		9EEE843727ED9EAC00E3E948 /* RACSubjectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACSubjectViewController.m; sourceTree = "<group>"; };
 		9EEE843927ED9ED100E3E948 /* TGDataItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGDataItem.h; sourceTree = "<group>"; };
@@ -222,6 +225,8 @@
 				9E8AB2A9280022B20081D9E2 /* LoginViewController.h */,
 				9E8AB2AA280022B20081D9E2 /* LoginViewController.m */,
 				9E8AB2AB280022B20081D9E2 /* LoginViewController.xib */,
+				9E8AB2AE280414390081D9E2 /* LoginViewModel.h */,
+				9E8AB2AF280414390081D9E2 /* LoginViewModel.m */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -484,6 +489,7 @@
 				9E8AB2A42800059C0081D9E2 /* RACUICommonController.m in Sources */,
 				9E8AB28227F82AB30081D9E2 /* SequenceViewController.m in Sources */,
 				9E8AB28B27F83B560081D9E2 /* RacMacrosController.m in Sources */,
+				9E8AB2B0280414390081D9E2 /* LoginViewModel.m in Sources */,
 				9EEE843827ED9EAC00E3E948 /* RACSubjectViewController.m in Sources */,
 				9E0D436227EC5F270074B761 /* SceneDelegate.m in Sources */,
 				9E8AB22227F144850081D9E2 /* SubjectSubController.m in Sources */,

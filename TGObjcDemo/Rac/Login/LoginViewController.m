@@ -7,6 +7,7 @@
 
 #import "LoginViewController.h"
 #import <ReactiveObjC.h>
+#import "LoginViewModel.h"
 
 @interface LoginViewController ()
 
@@ -14,6 +15,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *passwordTF;
 @property (weak, nonatomic) IBOutlet UIButton *loginBtn;
 @property (weak, nonatomic) IBOutlet UILabel *logInFailureLabel;
+@property (nonatomic, strong) LoginViewModel *viewModel;
 @end
 
 @implementation LoginViewController
@@ -25,32 +27,13 @@
 
 - (void)setupUI {
     self.navigationItem.title = @"登录";
-    RACSignal *accountSignal = [self.userNameTF.rac_textSignal map:^id _Nullable(NSString * _Nullable value) {
-        return @(value.length > 6);
-    }];
+    RAC(self.viewModel,account) = self.userNameTF.rac_textSignal;
+    RAC(self.userNameTF,backgroundColor) = self.viewModel.accountBgColorSignal;
     
-    RACSignal *pwdSignal = [self.passwordTF.rac_textSignal map:^id _Nullable(NSString * _Nullable value) {
-        return @(value.length > 6);
-    }];
-    
-    RACSignal *combineSignal = [RACSignal combineLatest:@[accountSignal,pwdSignal] reduce:^id(NSNumber *account,NSNumber *pwd){
-        return @([account boolValue] && [pwd boolValue]);
-    }];
-    
-    RAC(self.userNameTF,backgroundColor) = [accountSignal map:^id _Nullable(NSNumber *value) {
-        return [value boolValue]? [UIColor whiteColor] : [UIColor greenColor];
-    }];
-    
-    RAC(self.passwordTF,backgroundColor) = [pwdSignal map:^id _Nullable(NSNumber *value) {
-        return [value boolValue]? [UIColor whiteColor] : [UIColor greenColor];
-    }];
-    
-    RAC(self.loginBtn,backgroundColor) = [combineSignal map:^id _Nullable(NSNumber *value) {
-        return [value boolValue]?  [UIColor orangeColor] :[UIColor lightGrayColor];
-    }];
-    
-    
-    RAC(self.loginBtn,userInteractionEnabled) = combineSignal;
+    RAC(self.viewModel,pwd) = self.passwordTF.rac_textSignal;
+    RAC(self.passwordTF,backgroundColor) = self.viewModel.pwdBgColorSignal;
+    RAC(self.loginBtn,backgroundColor) = self.viewModel.loginColorSignal;
+    RAC(self.loginBtn,userInteractionEnabled) = self.viewModel.loginValidateSignal;
     
 //    [[[self.loginBtn rac_signalForControlEvents:UIControlEventTouchUpInside] flattenMap:^__kindof RACSignal * _Nullable(__kindof UIControl * _Nullable value) {
 //        self.logInFailureLabel.hidden = YES;
@@ -114,5 +97,13 @@
     }];
     
 }
+
+- (LoginViewModel *)viewModel {
+    if (_viewModel == nil) {
+        _viewModel = [[LoginViewModel alloc] init];
+    }
+    return _viewModel;
+}
+
 
 @end
