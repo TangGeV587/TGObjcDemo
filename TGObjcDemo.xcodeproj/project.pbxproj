@@ -16,6 +16,8 @@
 		9E0D436A27EC5F280074B761 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E0D436927EC5F280074B761 /* Assets.xcassets */; };
 		9E0D436D27EC5F280074B761 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E0D436B27EC5F280074B761 /* LaunchScreen.storyboard */; };
 		9E0D437027EC5F280074B761 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0D436F27EC5F280074B761 /* main.m */; };
+		9E243BC228066CFD00B99031 /* SSKeychain+MRCUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E243BBE28066CFD00B99031 /* SSKeychain+MRCUtil.m */; };
+		9E243BC328066CFD00B99031 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E243BC128066CFD00B99031 /* UIImage+ImageEffects.m */; };
 		9E8AB22227F144850081D9E2 /* SubjectSubController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8AB22127F144850081D9E2 /* SubjectSubController.m */; };
 		9E8AB22927F48AFE0081D9E2 /* BehaviorSubjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8AB22827F48AFE0081D9E2 /* BehaviorSubjectController.m */; };
 		9E8AB23127F68D8E0081D9E2 /* TGObjcDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8AB23027F68D8D0081D9E2 /* TGObjcDemoTests.m */; };
@@ -79,6 +81,10 @@
 		9E0D436C27EC5F280074B761 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E0D436E27EC5F280074B761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E0D436F27EC5F280074B761 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E243BBE28066CFD00B99031 /* SSKeychain+MRCUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SSKeychain+MRCUtil.m"; sourceTree = "<group>"; };
+		9E243BBF28066CFD00B99031 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		9E243BC028066CFD00B99031 /* SSKeychain+MRCUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSKeychain+MRCUtil.h"; sourceTree = "<group>"; };
+		9E243BC128066CFD00B99031 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		9E8AB22027F144850081D9E2 /* SubjectSubController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubjectSubController.h; sourceTree = "<group>"; };
 		9E8AB22127F144850081D9E2 /* SubjectSubController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubjectSubController.m; sourceTree = "<group>"; };
 		9E8AB22727F48AFE0081D9E2 /* BehaviorSubjectController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BehaviorSubjectController.h; sourceTree = "<group>"; };
@@ -243,6 +249,10 @@
 		9E8AB28C27F83B8B0081D9E2 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				9E243BC028066CFD00B99031 /* SSKeychain+MRCUtil.h */,
+				9E243BBE28066CFD00B99031 /* SSKeychain+MRCUtil.m */,
+				9E243BBF28066CFD00B99031 /* UIImage+ImageEffects.h */,
+				9E243BC128066CFD00B99031 /* UIImage+ImageEffects.m */,
 				9E8AB28D27F83BB00081D9E2 /* TGDemoBaseController.h */,
 				9E8AB28E27F83BB00081D9E2 /* TGDemoBaseController.m */,
 			);
@@ -524,10 +534,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E243BC328066CFD00B99031 /* UIImage+ImageEffects.m in Sources */,
 				9E0D436527EC5F270074B761 /* ViewController.m in Sources */,
 				9E8AB2C6280567BB0081D9E2 /* TGDemoNetHandle.m in Sources */,
 				9E8AB2B7280559160081D9E2 /* VideoListController.m in Sources */,
 				9E8AB29E27FEB4460081D9E2 /* RACBindController.m in Sources */,
+				9E243BC228066CFD00B99031 /* SSKeychain+MRCUtil.m in Sources */,
 				9E8AB2A127FED3EC0081D9E2 /* RACOtherController.m in Sources */,
 				9EEE843B27ED9ED100E3E948 /* TGDataItem.m in Sources */,
 				9EEE843E27EDA7A500E3E948 /* RacListTableViewController.m in Sources */,

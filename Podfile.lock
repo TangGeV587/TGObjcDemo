@@ -14,39 +14,51 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
+  - FBRetainCycleDetector (0.1.4)
   - MJExtension (3.4.1)
   - MJRefresh (3.6.1)
+  - MLeaksFinder (1.0.0):
+    - FBRetainCycleDetector
   - ReactiveObjC (3.1.1)
   - SDWebImage (5.11.1):
     - SDWebImage/Core (= 5.11.1)
   - SDWebImage/Core (5.11.1)
+  - SSKeychain (1.4.1)
   - YYModel (1.0.4)
 
 DEPENDENCIES:
   - AFNetworking
   - MJExtension
   - MJRefresh
+  - MLeaksFinder
   - ReactiveObjC
   - SDWebImage
+  - SSKeychain
   - YYModel
 
 SPEC REPOS:
   trunk:
     - AFNetworking
+    - FBRetainCycleDetector
     - MJExtension
     - MJRefresh
+    - MLeaksFinder
     - ReactiveObjC
     - SDWebImage
+    - SSKeychain
     - YYModel
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
   MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
   MJRefresh: d2c1970d1cf6e77fcfcdfe76c943dfab8dbfa5c1
+  MLeaksFinder: 8c435bd2f6d070af18cff082b503b21adc130fc0
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
+  SSKeychain: 55cc80f66f5c73da827e3077f02e43528897db41
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: ebf8ea9d17191649c3a81a21cbc209660ef42f9f
+PODFILE CHECKSUM: acb060f1e45e2717728b1b047f10a21d3bc7907b
 
 COCOAPODS: 1.11.2
