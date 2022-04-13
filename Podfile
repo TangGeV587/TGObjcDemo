@@ -11,6 +11,9 @@ target 'TGObjcDemo' do
   pod 'SDWebImage'
   pod 'MJExtension'
   pod 'YYModel'
+  pod 'MLeaksFinder'
+  
+  
   
   target 'TGObjcDemoTests' do
     pod 'ReactiveObjC'
