@@ -17,6 +17,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) RACSignal *pwdBgColorSignal;
 @property (nonatomic, strong) RACSignal *loginColorSignal;
 @property (nonatomic, strong) RACSignal *loginValidateSignal;
+@property (nonatomic, strong) RACCommand *loginCommand;
+@property (nonatomic, strong) RACSubject *resultSignal;
 
 
 @end

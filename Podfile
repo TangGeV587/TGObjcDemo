@@ -6,8 +6,14 @@ target 'TGObjcDemo' do
   use_frameworks!
 
   pod 'ReactiveObjC'
-
+  pod 'AFNetworking'
+  pod 'MJRefresh'
+  pod 'SDWebImage'
+  pod 'MJExtension'
+  pod 'YYModel'
+  
   target 'TGObjcDemoTests' do
     pod 'ReactiveObjC'
   end
+  
 end
