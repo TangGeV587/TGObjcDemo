@@ -97,7 +97,7 @@
         return nil;
     }];
     
-    // then:忽略掉第一个信号的值
+    //then A发送完毕 忽略前面A这个信号  只接收B的数据（A发送完毕 B在回来）
     [[signalA then:^RACSignal * _Nonnull{
         // 返回的信号就是要组合的信号
         return signalB;

@@ -18,6 +18,7 @@
 		9E0D437027EC5F280074B761 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0D436F27EC5F280074B761 /* main.m */; };
 		9E243BC228066CFD00B99031 /* SSKeychain+MRCUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E243BBE28066CFD00B99031 /* SSKeychain+MRCUtil.m */; };
 		9E243BC328066CFD00B99031 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E243BC128066CFD00B99031 /* UIImage+ImageEffects.m */; };
+		9E85CA7B28124D9600E8A951 /* property_attributes.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E85CA7A28124D9600E8A951 /* property_attributes.png */; };
 		9E8AB22227F144850081D9E2 /* SubjectSubController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8AB22127F144850081D9E2 /* SubjectSubController.m */; };
 		9E8AB22927F48AFE0081D9E2 /* BehaviorSubjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8AB22827F48AFE0081D9E2 /* BehaviorSubjectController.m */; };
 		9E8AB23127F68D8E0081D9E2 /* TGObjcDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8AB23027F68D8D0081D9E2 /* TGObjcDemoTests.m */; };
@@ -85,6 +86,7 @@
 		9E243BBF28066CFD00B99031 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
 		9E243BC028066CFD00B99031 /* SSKeychain+MRCUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSKeychain+MRCUtil.h"; sourceTree = "<group>"; };
 		9E243BC128066CFD00B99031 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		9E85CA7A28124D9600E8A951 /* property_attributes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = property_attributes.png; sourceTree = "<group>"; };
 		9E8AB22027F144850081D9E2 /* SubjectSubController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubjectSubController.h; sourceTree = "<group>"; };
 		9E8AB22127F144850081D9E2 /* SubjectSubController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubjectSubController.m; sourceTree = "<group>"; };
 		9E8AB22727F48AFE0081D9E2 /* BehaviorSubjectController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BehaviorSubjectController.h; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 		9E8AB2C828056B520081D9E2 /* VideoList0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = VideoList0.json; sourceTree = "<group>"; };
 		9E8AB2C928056B520081D9E2 /* VideoList3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = VideoList3.json; sourceTree = "<group>"; };
 		9E8AB2CA28056B520081D9E2 /* VideoList2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = VideoList2.json; sourceTree = "<group>"; };
+		9EC6C974280FDE660002AFEA /* TGSwizzlingDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGSwizzlingDefine.h; sourceTree = "<group>"; };
 		9EEE843627ED9EAC00E3E948 /* RACSubjectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACSubjectViewController.h; sourceTree = "<group>"; };
 		9EEE843727ED9EAC00E3E948 /* RACSubjectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACSubjectViewController.m; sourceTree = "<group>"; };
 		9EEE843927ED9ED100E3E948 /* TGDataItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGDataItem.h; sourceTree = "<group>"; };
@@ -204,6 +207,7 @@
 		9E0D435C27EC5F270074B761 /* TGObjcDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9E85CA7828124D8200E8A951 /* Resource */,
 				9E8AB2C32805678E0081D9E2 /* Network */,
 				9E8AB28C27F83B8B0081D9E2 /* Utils */,
 				9E8AB28327F82E320081D9E2 /* DataSource */,
@@ -223,6 +227,22 @@
 				9E0D436F27EC5F280074B761 /* main.m */,
 			);
 			path = TGObjcDemo;
+			sourceTree = "<group>";
+		};
+		9E85CA7828124D8200E8A951 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9E85CA7928124D8C00E8A951 /* images */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		9E85CA7928124D8C00E8A951 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9E85CA7A28124D9600E8A951 /* property_attributes.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 		9E8AB22F27F68D8D0081D9E2 /* TGObjcDemoTests */ = {
@@ -255,6 +275,7 @@
 				9E243BC128066CFD00B99031 /* UIImage+ImageEffects.m */,
 				9E8AB28D27F83BB00081D9E2 /* TGDemoBaseController.h */,
 				9E8AB28E27F83BB00081D9E2 /* TGDemoBaseController.m */,
+				9EC6C974280FDE660002AFEA /* TGSwizzlingDefine.h */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -429,6 +450,7 @@
 				9E8AB2CD28056B520081D9E2 /* VideoList3.json in Resources */,
 				9E8AB2AD280022B20081D9E2 /* LoginViewController.xib in Resources */,
 				9E0D436D27EC5F280074B761 /* LaunchScreen.storyboard in Resources */,
+				9E85CA7B28124D9600E8A951 /* property_attributes.png in Resources */,
 				9E8AB2CC28056B520081D9E2 /* VideoList0.json in Resources */,
 				9E0D436A27EC5F280074B761 /* Assets.xcassets in Resources */,
 				9E8AB2CB28056B520081D9E2 /* VideoList1.json in Resources */,
@@ -726,6 +748,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 443PXX77M4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TGObjcDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -753,6 +776,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 443PXX77M4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TGObjcDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -777,12 +801,18 @@
 			baseConfigurationReference = 9B889F15A5D74E87BDF41328 /* Pods-TGObjcDemo-TGObjcDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 443PXX77M4;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tangge.TGObjcDemoTests;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGObjcDemo.app/TGObjcDemo";
@@ -794,12 +824,18 @@
 			baseConfigurationReference = 609659206FA0604F34B8F835 /* Pods-TGObjcDemo-TGObjcDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 443PXX77M4;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tangge.TGObjcDemoTests;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGObjcDemo.app/TGObjcDemo";

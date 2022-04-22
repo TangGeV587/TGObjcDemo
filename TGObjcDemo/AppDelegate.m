@@ -16,8 +16,29 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    NSString *formatStringForHours = [NSDateFormatter dateFormatFromTemplate:@"j" options:0 locale:[NSLocale currentLocale]];
+    NSRange containsA = [formatStringForHours rangeOfString:@"a"];
+    BOOL has_AMPM = containsA.location != NSNotFound;
+    NSDateFormatter *format = [[NSDateFormatter alloc] init];
+    NSString *dateStr = @"2022-4-25 14:00";
+    if (has_AMPM) {
+        format.dateFormat = @"yyyy-MM-dd hh:mm"; //2022-04-21 11:53 AM  2022-04-21 12:52 PM  2022-04-21 01:07 PM
+        NSLog(@"12小时制");
+    }else {
+        NSLog(@"24小时制");
+        format.dateFormat = @"yyyy-MM-dd HH:mm"; //2022-04-21 11:52 AM
+    }
+    
+    NSDate *date = [format dateFromString:dateStr];
+    NSString *time = [format stringFromDate:[NSDate date]];
+    NSLog(@"--- %@  \n %@",time,date);
+    
     return YES;
 }
+
+
+
 
 
 #pragma mark - UISceneSession lifecycle
