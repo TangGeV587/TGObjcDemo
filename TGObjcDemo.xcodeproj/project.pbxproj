@@ -18,6 +18,11 @@
 		9E0D437027EC5F280074B761 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0D436F27EC5F280074B761 /* main.m */; };
 		9E243BC228066CFD00B99031 /* SSKeychain+MRCUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E243BBE28066CFD00B99031 /* SSKeychain+MRCUtil.m */; };
 		9E243BC328066CFD00B99031 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E243BC128066CFD00B99031 /* UIImage+ImageEffects.m */; };
+		9E5CD6A12814F2AF0055603D /* TGPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5CD69F2814F2AF0055603D /* TGPerson.m */; };
+		9E5CD6A52814F3A40055603D /* TGRuntimeListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5CD6A42814F3A40055603D /* TGRuntimeListController.m */; };
+		9E5CD6A82814F4AE0055603D /* TGKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5CD6A72814F4AE0055603D /* TGKVOController.m */; };
+		9E5CD6AB2814F56E0055603D /* TGRumtimeCopyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5CD6AA2814F56E0055603D /* TGRumtimeCopyController.m */; };
+		9E5CD6B028153AFB0055603D /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5CD6AF28153AFB0055603D /* UIView+Layout.m */; };
 		9E85CA7B28124D9600E8A951 /* property_attributes.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E85CA7A28124D9600E8A951 /* property_attributes.png */; };
 		9E8AB22227F144850081D9E2 /* SubjectSubController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8AB22127F144850081D9E2 /* SubjectSubController.m */; };
 		9E8AB22927F48AFE0081D9E2 /* BehaviorSubjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8AB22827F48AFE0081D9E2 /* BehaviorSubjectController.m */; };
@@ -86,6 +91,16 @@
 		9E243BBF28066CFD00B99031 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
 		9E243BC028066CFD00B99031 /* SSKeychain+MRCUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSKeychain+MRCUtil.h"; sourceTree = "<group>"; };
 		9E243BC128066CFD00B99031 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		9E5CD69F2814F2AF0055603D /* TGPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGPerson.m; sourceTree = "<group>"; };
+		9E5CD6A02814F2AF0055603D /* TGPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGPerson.h; sourceTree = "<group>"; };
+		9E5CD6A32814F3A40055603D /* TGRuntimeListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGRuntimeListController.h; sourceTree = "<group>"; };
+		9E5CD6A42814F3A40055603D /* TGRuntimeListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGRuntimeListController.m; sourceTree = "<group>"; };
+		9E5CD6A62814F4AE0055603D /* TGKVOController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGKVOController.h; sourceTree = "<group>"; };
+		9E5CD6A72814F4AE0055603D /* TGKVOController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGKVOController.m; sourceTree = "<group>"; };
+		9E5CD6A92814F56E0055603D /* TGRumtimeCopyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGRumtimeCopyController.h; sourceTree = "<group>"; };
+		9E5CD6AA2814F56E0055603D /* TGRumtimeCopyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGRumtimeCopyController.m; sourceTree = "<group>"; };
+		9E5CD6AE28153AFB0055603D /* UIView+Layout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		9E5CD6AF28153AFB0055603D /* UIView+Layout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
 		9E85CA7A28124D9600E8A951 /* property_attributes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = property_attributes.png; sourceTree = "<group>"; };
 		9E8AB22027F144850081D9E2 /* SubjectSubController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubjectSubController.h; sourceTree = "<group>"; };
 		9E8AB22127F144850081D9E2 /* SubjectSubController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubjectSubController.m; sourceTree = "<group>"; };
@@ -207,9 +222,11 @@
 		9E0D435C27EC5F270074B761 /* TGObjcDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9E5CD69E2814F2970055603D /* Data */,
 				9E85CA7828124D8200E8A951 /* Resource */,
 				9E8AB2C32805678E0081D9E2 /* Network */,
 				9E8AB28C27F83B8B0081D9E2 /* Utils */,
+				9E5CD6A22814F3620055603D /* RunTime */,
 				9E8AB28327F82E320081D9E2 /* DataSource */,
 				9EEE843527ED9C0900E3E948 /* Rac */,
 				9E0D435D27EC5F270074B761 /* AppDelegate.h */,
@@ -227,6 +244,49 @@
 				9E0D436F27EC5F280074B761 /* main.m */,
 			);
 			path = TGObjcDemo;
+			sourceTree = "<group>";
+		};
+		9E5CD69E2814F2970055603D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9E5CD6A02814F2AF0055603D /* TGPerson.h */,
+				9E5CD69F2814F2AF0055603D /* TGPerson.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		9E5CD6A22814F3620055603D /* RunTime */ = {
+			isa = PBXGroup;
+			children = (
+				9E5CD6A92814F56E0055603D /* TGRumtimeCopyController.h */,
+				9E5CD6AA2814F56E0055603D /* TGRumtimeCopyController.m */,
+				9E5CD6A32814F3A40055603D /* TGRuntimeListController.h */,
+				9E5CD6A42814F3A40055603D /* TGRuntimeListController.m */,
+				9E5CD6A62814F4AE0055603D /* TGKVOController.h */,
+				9E5CD6A72814F4AE0055603D /* TGKVOController.m */,
+			);
+			path = RunTime;
+			sourceTree = "<group>";
+		};
+		9E5CD6AC28153AA40055603D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				9E243BC028066CFD00B99031 /* SSKeychain+MRCUtil.h */,
+				9E5CD6AE28153AFB0055603D /* UIView+Layout.h */,
+				9E5CD6AF28153AFB0055603D /* UIView+Layout.m */,
+				9E243BBE28066CFD00B99031 /* SSKeychain+MRCUtil.m */,
+				9E243BBF28066CFD00B99031 /* UIImage+ImageEffects.h */,
+				9E243BC128066CFD00B99031 /* UIImage+ImageEffects.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		9E5CD6AD28153AB00055603D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				9EC6C974280FDE660002AFEA /* TGSwizzlingDefine.h */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 		9E85CA7828124D8200E8A951 /* Resource */ = {
@@ -269,13 +329,10 @@
 		9E8AB28C27F83B8B0081D9E2 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				9E243BC028066CFD00B99031 /* SSKeychain+MRCUtil.h */,
-				9E243BBE28066CFD00B99031 /* SSKeychain+MRCUtil.m */,
-				9E243BBF28066CFD00B99031 /* UIImage+ImageEffects.h */,
-				9E243BC128066CFD00B99031 /* UIImage+ImageEffects.m */,
+				9E5CD6AD28153AB00055603D /* Tools */,
+				9E5CD6AC28153AA40055603D /* Category */,
 				9E8AB28D27F83BB00081D9E2 /* TGDemoBaseController.h */,
 				9E8AB28E27F83BB00081D9E2 /* TGDemoBaseController.m */,
-				9EC6C974280FDE660002AFEA /* TGSwizzlingDefine.h */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -568,22 +625,27 @@
 				9E8AB2A7280006B90081D9E2 /* TGView.m in Sources */,
 				9E8AB29B27FE79DD0081D9E2 /* RACCombineController.m in Sources */,
 				9E8AB28827F833850081D9E2 /* RACMulticastConnectionController.m in Sources */,
+				9E5CD6B028153AFB0055603D /* UIView+Layout.m in Sources */,
 				9E8AB2AC280022B20081D9E2 /* LoginViewController.m in Sources */,
 				9E8AB2C2280560EA0081D9E2 /* VideoListModel.m in Sources */,
 				9E8AB2BA28055AD30081D9E2 /* VideoViewModel.m in Sources */,
 				9E0D435F27EC5F270074B761 /* AppDelegate.m in Sources */,
 				9E0D437027EC5F280074B761 /* main.m in Sources */,
 				9E8AB29527FD77140081D9E2 /* RACFilterController.m in Sources */,
+				9E5CD6A12814F2AF0055603D /* TGPerson.m in Sources */,
 				9E8AB27C27F7E8C00081D9E2 /* ReplaySubjectController.m in Sources */,
 				9E8AB27F27F827200081D9E2 /* SignalViewController.m in Sources */,
 				9E8AB29227FD35870081D9E2 /* RACCommondController.m in Sources */,
 				9E8AB2A42800059C0081D9E2 /* RACUICommonController.m in Sources */,
+				9E5CD6A82814F4AE0055603D /* TGKVOController.m in Sources */,
 				9E8AB28227F82AB30081D9E2 /* SequenceViewController.m in Sources */,
+				9E5CD6AB2814F56E0055603D /* TGRumtimeCopyController.m in Sources */,
 				9E8AB28B27F83B560081D9E2 /* RacMacrosController.m in Sources */,
 				9E8AB2B0280414390081D9E2 /* LoginViewModel.m in Sources */,
 				9E8AB2BF280560430081D9E2 /* VideoListTableViewCell.m in Sources */,
 				9EEE843827ED9EAC00E3E948 /* RACSubjectViewController.m in Sources */,
 				9E0D436227EC5F270074B761 /* SceneDelegate.m in Sources */,
+				9E5CD6A52814F3A40055603D /* TGRuntimeListController.m in Sources */,
 				9E8AB22227F144850081D9E2 /* SubjectSubController.m in Sources */,
 				9E8AB29827FD8D900081D9E2 /* RACMapController.m in Sources */,
 				9E8AB28F27F83BB00081D9E2 /* TGDemoBaseController.m in Sources */,

@@ -7,16 +7,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "829C5B03-68FC-49C6-A3DC-785855DF6D20"
+            uuid = "190E6CAD-4F04-44B1-8D59-51B03324FD30"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TGObjcDemo/AppDelegate.m"
+            filePath = "TGObjcDemo/RunTime/TGKVOController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "-application:didFinishLaunchingWithOptions:"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "-touchesBegan:withEvent:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
