@@ -25,20 +25,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self setupUI];
-   
-}
-
-static inline void swizzling_ExchangeMethod(Class clazz,SEL originSelector,SEL swizzledSelector) {
-    
-   Method originMehtod =  class_getClassMethod(clazz, originSelector);
-   Method swizzledMethod = class_getClassMethod(clazz, swizzledSelector);
-   BOOL result = class_addMethod(clazz, swizzledSelector, method_getImplementation(swizzledMethod), method_getTypeEncoding(swizzledMethod));
-    
-    if (result) {
-//        class_replaceMethod(clazz, originMehtod, method_getImplementation(swizzledMethod), method_getTypeEncoding(swizzledMethod))
-    }else {
-//        method_exchangeImplementations(originMehtod, swizzledMethod);
-    }
+//    swizzling_ExchangeMethod(nil, nil, nil);
 }
 
 

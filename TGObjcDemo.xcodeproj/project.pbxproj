@@ -23,6 +23,11 @@
 		9E5CD6A82814F4AE0055603D /* TGKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5CD6A72814F4AE0055603D /* TGKVOController.m */; };
 		9E5CD6AB2814F56E0055603D /* TGRumtimeCopyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5CD6AA2814F56E0055603D /* TGRumtimeCopyController.m */; };
 		9E5CD6B028153AFB0055603D /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5CD6AF28153AFB0055603D /* UIView+Layout.m */; };
+		9E5CD6B3281549140055603D /* UIViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5CD6B2281549140055603D /* UIViewController+Extension.m */; };
+		9E5CD6B628154D290055603D /* NSArray+safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5CD6B528154D290055603D /* NSArray+safe.m */; };
+		9E5CD6BC28162DD80055603D /* NSMutableArray+safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5CD6BB28162DD80055603D /* NSMutableArray+safe.m */; };
+		9E5CD6BF281666260055603D /* NSObject+safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5CD6BE281666260055603D /* NSObject+safe.m */; };
+		9E5CD6C2281675D90055603D /* TGCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5CD6C1281675D90055603D /* TGCrash.m */; };
 		9E85CA7B28124D9600E8A951 /* property_attributes.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E85CA7A28124D9600E8A951 /* property_attributes.png */; };
 		9E8AB22227F144850081D9E2 /* SubjectSubController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8AB22127F144850081D9E2 /* SubjectSubController.m */; };
 		9E8AB22927F48AFE0081D9E2 /* BehaviorSubjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8AB22827F48AFE0081D9E2 /* BehaviorSubjectController.m */; };
@@ -101,6 +106,16 @@
 		9E5CD6AA2814F56E0055603D /* TGRumtimeCopyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGRumtimeCopyController.m; sourceTree = "<group>"; };
 		9E5CD6AE28153AFB0055603D /* UIView+Layout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
 		9E5CD6AF28153AFB0055603D /* UIView+Layout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		9E5CD6B1281549140055603D /* UIViewController+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extension.h"; sourceTree = "<group>"; };
+		9E5CD6B2281549140055603D /* UIViewController+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extension.m"; sourceTree = "<group>"; };
+		9E5CD6B428154D290055603D /* NSArray+safe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+safe.h"; sourceTree = "<group>"; };
+		9E5CD6B528154D290055603D /* NSArray+safe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+safe.m"; sourceTree = "<group>"; };
+		9E5CD6BA28162DD80055603D /* NSMutableArray+safe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+safe.h"; sourceTree = "<group>"; };
+		9E5CD6BB28162DD80055603D /* NSMutableArray+safe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+safe.m"; sourceTree = "<group>"; };
+		9E5CD6BD281666260055603D /* NSObject+safe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+safe.h"; sourceTree = "<group>"; };
+		9E5CD6BE281666260055603D /* NSObject+safe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+safe.m"; sourceTree = "<group>"; };
+		9E5CD6C0281675D90055603D /* TGCrash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGCrash.h; sourceTree = "<group>"; };
+		9E5CD6C1281675D90055603D /* TGCrash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGCrash.m; sourceTree = "<group>"; };
 		9E85CA7A28124D9600E8A951 /* property_attributes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = property_attributes.png; sourceTree = "<group>"; };
 		9E8AB22027F144850081D9E2 /* SubjectSubController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubjectSubController.h; sourceTree = "<group>"; };
 		9E8AB22127F144850081D9E2 /* SubjectSubController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubjectSubController.m; sourceTree = "<group>"; };
@@ -251,6 +266,8 @@
 			children = (
 				9E5CD6A02814F2AF0055603D /* TGPerson.h */,
 				9E5CD69F2814F2AF0055603D /* TGPerson.m */,
+				9E5CD6C0281675D90055603D /* TGCrash.h */,
+				9E5CD6C1281675D90055603D /* TGCrash.m */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -277,6 +294,14 @@
 				9E243BBE28066CFD00B99031 /* SSKeychain+MRCUtil.m */,
 				9E243BBF28066CFD00B99031 /* UIImage+ImageEffects.h */,
 				9E243BC128066CFD00B99031 /* UIImage+ImageEffects.m */,
+				9E5CD6B1281549140055603D /* UIViewController+Extension.h */,
+				9E5CD6B2281549140055603D /* UIViewController+Extension.m */,
+				9E5CD6B428154D290055603D /* NSArray+safe.h */,
+				9E5CD6B528154D290055603D /* NSArray+safe.m */,
+				9E5CD6BA28162DD80055603D /* NSMutableArray+safe.h */,
+				9E5CD6BB28162DD80055603D /* NSMutableArray+safe.m */,
+				9E5CD6BD281666260055603D /* NSObject+safe.h */,
+				9E5CD6BE281666260055603D /* NSObject+safe.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -617,6 +642,7 @@
 				9E0D436527EC5F270074B761 /* ViewController.m in Sources */,
 				9E8AB2C6280567BB0081D9E2 /* TGDemoNetHandle.m in Sources */,
 				9E8AB2B7280559160081D9E2 /* VideoListController.m in Sources */,
+				9E5CD6C2281675D90055603D /* TGCrash.m in Sources */,
 				9E8AB29E27FEB4460081D9E2 /* RACBindController.m in Sources */,
 				9E243BC228066CFD00B99031 /* SSKeychain+MRCUtil.m in Sources */,
 				9E8AB2A127FED3EC0081D9E2 /* RACOtherController.m in Sources */,
@@ -625,6 +651,7 @@
 				9E8AB2A7280006B90081D9E2 /* TGView.m in Sources */,
 				9E8AB29B27FE79DD0081D9E2 /* RACCombineController.m in Sources */,
 				9E8AB28827F833850081D9E2 /* RACMulticastConnectionController.m in Sources */,
+				9E5CD6BC28162DD80055603D /* NSMutableArray+safe.m in Sources */,
 				9E5CD6B028153AFB0055603D /* UIView+Layout.m in Sources */,
 				9E8AB2AC280022B20081D9E2 /* LoginViewController.m in Sources */,
 				9E8AB2C2280560EA0081D9E2 /* VideoListModel.m in Sources */,
@@ -638,6 +665,7 @@
 				9E8AB29227FD35870081D9E2 /* RACCommondController.m in Sources */,
 				9E8AB2A42800059C0081D9E2 /* RACUICommonController.m in Sources */,
 				9E5CD6A82814F4AE0055603D /* TGKVOController.m in Sources */,
+				9E5CD6BF281666260055603D /* NSObject+safe.m in Sources */,
 				9E8AB28227F82AB30081D9E2 /* SequenceViewController.m in Sources */,
 				9E5CD6AB2814F56E0055603D /* TGRumtimeCopyController.m in Sources */,
 				9E8AB28B27F83B560081D9E2 /* RacMacrosController.m in Sources */,
@@ -647,8 +675,10 @@
 				9E0D436227EC5F270074B761 /* SceneDelegate.m in Sources */,
 				9E5CD6A52814F3A40055603D /* TGRuntimeListController.m in Sources */,
 				9E8AB22227F144850081D9E2 /* SubjectSubController.m in Sources */,
+				9E5CD6B628154D290055603D /* NSArray+safe.m in Sources */,
 				9E8AB29827FD8D900081D9E2 /* RACMapController.m in Sources */,
 				9E8AB28F27F83BB00081D9E2 /* TGDemoBaseController.m in Sources */,
+				9E5CD6B3281549140055603D /* UIViewController+Extension.m in Sources */,
 				9E8AB22927F48AFE0081D9E2 /* BehaviorSubjectController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

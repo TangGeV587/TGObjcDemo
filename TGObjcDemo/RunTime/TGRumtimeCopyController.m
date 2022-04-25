@@ -8,6 +8,7 @@
 #import "TGRumtimeCopyController.h"
 #import "TGPerson.h"
 #import <objc/runtime.h>
+#import "TGCrash.h"
 
 @interface TGRumtimeCopyController ()
 
@@ -24,7 +25,6 @@
     self.navigationItem.title = @"KVO";
     
 }
-
 
 //打印变量
 void getIvarList(Class clazz) {
@@ -81,13 +81,17 @@ void getProtocolList(Class clazz) {
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    TGPerson *p = [[TGPerson alloc] init];
-    IMP imp = [p methodForSelector:@selector(run)];
+//    TGPerson *p = [[TGPerson alloc] init];
+//    IMP imp = [p methodForSelector:@selector(run)];
 //        getIvarList([p class]);
 //        getMethodList([p class]);
 //        getPropertyList([p class]);
 //        getProtocolList([p class]);
     
+    TGCrash *carsh = [[TGCrash alloc] init];
+    [carsh performSelector:@selector(run)];
+//    [carsh run];
 }
+
 
 @end

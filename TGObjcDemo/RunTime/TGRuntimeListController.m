@@ -23,7 +23,7 @@
 
 
 - (void)setupUI {
-    self.navigationItem.title = @"RAC Demo";
+    self.navigationItem.title = @"运行时";
     self.tableView.tableFooterView =  [[UIView alloc] init];
     self.tableView.showsVerticalScrollIndicator = NO;
     self.tableView.rowHeight = 60;
