@@ -61,6 +61,7 @@
 		9E8AB2CC28056B520081D9E2 /* VideoList0.json in Resources */ = {isa = PBXBuildFile; fileRef = 9E8AB2C828056B520081D9E2 /* VideoList0.json */; };
 		9E8AB2CD28056B520081D9E2 /* VideoList3.json in Resources */ = {isa = PBXBuildFile; fileRef = 9E8AB2C928056B520081D9E2 /* VideoList3.json */; };
 		9E8AB2CE28056B520081D9E2 /* VideoList2.json in Resources */ = {isa = PBXBuildFile; fileRef = 9E8AB2CA28056B520081D9E2 /* VideoList2.json */; };
+		9EED0D2D281919AB008A2B94 /* TGHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EED0D2C281919AB008A2B94 /* TGHelper.m */; };
 		9EEE843827ED9EAC00E3E948 /* RACSubjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEE843727ED9EAC00E3E948 /* RACSubjectViewController.m */; };
 		9EEE843B27ED9ED100E3E948 /* TGDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEE843A27ED9ED100E3E948 /* TGDataItem.m */; };
 		9EEE843E27EDA7A500E3E948 /* RacListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEE843D27EDA7A500E3E948 /* RacListTableViewController.m */; };
@@ -174,6 +175,8 @@
 		9E8AB2C928056B520081D9E2 /* VideoList3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = VideoList3.json; sourceTree = "<group>"; };
 		9E8AB2CA28056B520081D9E2 /* VideoList2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = VideoList2.json; sourceTree = "<group>"; };
 		9EC6C974280FDE660002AFEA /* TGSwizzlingDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGSwizzlingDefine.h; sourceTree = "<group>"; };
+		9EED0D2B281919AB008A2B94 /* TGHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGHelper.h; sourceTree = "<group>"; };
+		9EED0D2C281919AB008A2B94 /* TGHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGHelper.m; sourceTree = "<group>"; };
 		9EEE843627ED9EAC00E3E948 /* RACSubjectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACSubjectViewController.h; sourceTree = "<group>"; };
 		9EEE843727ED9EAC00E3E948 /* RACSubjectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACSubjectViewController.m; sourceTree = "<group>"; };
 		9EEE843927ED9ED100E3E948 /* TGDataItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGDataItem.h; sourceTree = "<group>"; };
@@ -310,6 +313,8 @@
 			isa = PBXGroup;
 			children = (
 				9EC6C974280FDE660002AFEA /* TGSwizzlingDefine.h */,
+				9EED0D2B281919AB008A2B94 /* TGHelper.h */,
+				9EED0D2C281919AB008A2B94 /* TGHelper.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -642,6 +647,7 @@
 				9E0D436527EC5F270074B761 /* ViewController.m in Sources */,
 				9E8AB2C6280567BB0081D9E2 /* TGDemoNetHandle.m in Sources */,
 				9E8AB2B7280559160081D9E2 /* VideoListController.m in Sources */,
+				9EED0D2D281919AB008A2B94 /* TGHelper.m in Sources */,
 				9E5CD6C2281675D90055603D /* TGCrash.m in Sources */,
 				9E8AB29E27FEB4460081D9E2 /* RACBindController.m in Sources */,
 				9E243BC228066CFD00B99031 /* SSKeychain+MRCUtil.m in Sources */,
