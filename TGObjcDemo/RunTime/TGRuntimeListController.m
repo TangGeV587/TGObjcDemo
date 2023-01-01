@@ -58,7 +58,8 @@
         _dataSource = @[
             [[TGDataItem alloc] init:@"KVO" withClassName:@"TGKVOController"],
             [[TGDataItem alloc] init:@"私有属性、方法、变量、协议" withClassName:@"TGRumtimeCopyController"],
-            //TGRumtimeCopyController
+            [[TGDataItem alloc] init:@"消息快速转发" withClassName:@"TGForwardController"],
+            //TGForwardController
         ];
     }
     return _dataSource;
