@@ -7,7 +7,7 @@ target 'TGObjcDemo' do
   use_frameworks!
 
   pod 'ReactiveObjC'
-  pod 'AFNetworking'
+  pod 'AFNetworking','4.0.1'
   pod 'MJRefresh'
   pod 'SDWebImage'
   pod 'MJExtension'

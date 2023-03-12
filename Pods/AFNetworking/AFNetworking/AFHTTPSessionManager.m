@@ -63,21 +63,30 @@
     return [self initWithBaseURL:nil sessionConfiguration:configuration];
 }
 
+/*
+ 1.调用父类的方法
+ 2.给url添加“/”
+ 3.给requestSerializer、responseSerializer设置默认值
+ */
 - (instancetype)initWithBaseURL:(NSURL *)url
            sessionConfiguration:(NSURLSessionConfiguration *)configuration
 {
+    //调用父类初始化方法
     self = [super initWithSessionConfiguration:configuration];
     if (!self) {
         return nil;
     }
 
-    // Ensure terminal slash for baseURL path, so that NSURL +URLWithString:relativeToURL: works as expected
+    /*
+     为了确保NSURL +URLWithString:relativeToURL: works可以正确执行，在baseurlpath的最后添加‘/’
+     */
+    //url有值且没有‘/’,那么在url的末尾添加‘/’
     if ([[url path] length] > 0 && ![[url absoluteString] hasSuffix:@"/"]) {
         url = [url URLByAppendingPathComponent:@""];
     }
 
     self.baseURL = url;
-
+    //给requestSerializer、responseSerializer设置默认值
     self.requestSerializer = [AFHTTPRequestSerializer serializer];
     self.responseSerializer = [AFJSONResponseSerializer serializer];
 
@@ -124,7 +133,7 @@
                       success:(nullable void (^)(NSURLSessionDataTask * _Nonnull, id _Nullable))success
                       failure:(nullable void (^)(NSURLSessionDataTask * _Nullable, NSError * _Nonnull))failure
 {
-    
+    //返回一个task，然后开始网络请求
     NSURLSessionDataTask *dataTask = [self dataTaskWithHTTPMethod:@"GET"
                                                         URLString:URLString
                                                        parameters:parameters
@@ -133,7 +142,7 @@
                                                  downloadProgress:downloadProgress
                                                           success:success
                                                           failure:failure];
-    
+    //开始网络请求
     [dataTask resume];
     
     return dataTask;
@@ -248,7 +257,7 @@
     return dataTask;
 }
 
-
+//1.生成request，2.通过request生成task
 - (NSURLSessionDataTask *)dataTaskWithHTTPMethod:(NSString *)method
                                        URLString:(NSString *)URLString
                                       parameters:(nullable id)parameters
@@ -259,12 +268,19 @@
                                          failure:(nullable void (^)(NSURLSessionDataTask * _Nullable task, NSError *error))failure
 {
     NSError *serializationError = nil;
+    /*
+     1.先调用AFHTTPRequestSerializer的requestWithMethod函数构建request
+     2.处理request构建产生的错误 – serializationError
+     //relativeToURL表示将URLString拼接到baseURL后面
+
+     */
     NSMutableURLRequest *request = [self.requestSerializer requestWithMethod:method URLString:[[NSURL URLWithString:URLString relativeToURL:self.baseURL] absoluteString] parameters:parameters error:&serializationError];
     for (NSString *headerField in headers.keyEnumerator) {
         [request setValue:headers[headerField] forHTTPHeaderField:headerField];
     }
     if (serializationError) {
         if (failure) {
+            //completionQueue不存在返回dispatch_get_main_queue
             dispatch_async(self.completionQueue ?: dispatch_get_main_queue(), ^{
                 failure(nil, serializationError);
             });
@@ -273,6 +289,7 @@
         return nil;
     }
 
+    //此时的request已经将参数拼接在url后面
     __block NSURLSessionDataTask *dataTask = nil;
     dataTask = [self dataTaskWithRequest:request
                           uploadProgress:uploadProgress
@@ -329,9 +346,11 @@
     return self;
 }
 
+// 对baseURL,session.configuration,requestSerializer,responseSerializer,securityPolicy进行编码
 - (void)encodeWithCoder:(NSCoder *)coder {
+    // AFHTTPSessionManager的父类为AFURLSessionManager，所以先调用父类方法
     [super encodeWithCoder:coder];
-
+    // 因为configuration是一个对象，所以要考虑是否实现了NSCoding
     [coder encodeObject:self.baseURL forKey:NSStringFromSelector(@selector(baseURL))];
     if ([self.session.configuration conformsToProtocol:@protocol(NSCoding)]) {
         [coder encodeObject:self.session.configuration forKey:@"sessionConfiguration"];
@@ -344,7 +363,7 @@
 }
 
 #pragma mark - NSCopying
-
+// 深拷贝，递归地拷贝下去
 - (instancetype)copyWithZone:(NSZone *)zone {
     AFHTTPSessionManager *HTTPClient = [[[self class] allocWithZone:zone] initWithBaseURL:self.baseURL sessionConfiguration:self.session.configuration];
 

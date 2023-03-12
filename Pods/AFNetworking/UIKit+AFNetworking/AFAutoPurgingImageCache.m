@@ -29,8 +29,8 @@
 
 @property (nonatomic, strong) UIImage *image;
 @property (nonatomic, copy) NSString *identifier;
-@property (nonatomic, assign) UInt64 totalBytes;
-@property (nonatomic, strong) NSDate *lastAccessDate;
+@property (nonatomic, assign) UInt64 totalBytes; //容量
+@property (nonatomic, strong) NSDate *lastAccessDate; //最后访问日期
 @property (nonatomic, assign) UInt64 currentMemoryUsage;
 
 @end

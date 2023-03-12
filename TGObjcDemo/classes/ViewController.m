@@ -15,6 +15,7 @@
 #import "TGAlertUtils.h"
 #import "TestViewController.h"
 #import "SPActivityIndicatorTestViewController.h"
+#import <AFNetworking/AFNetworking.h>
 #define screenW [UIScreen mainScreen].bounds.size.width
 #define screenH [UIScreen mainScreen].bounds.size.height
 
@@ -24,17 +25,16 @@
 @property (nonatomic, strong) NSArray *dataSource;
 @property (nonatomic, strong) UIView *coverView;
 @property (nonatomic , strong) TGButton *customBtn;
-
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
     [self setupUI];
-//    swizzling_ExchangeMethod(nil, nil, nil);
 }
+
 
 - (void)viewWillLayoutSubviews {
     [super viewWillLayoutSubviews];
@@ -46,6 +46,7 @@
 - (void)viewDidLayoutSubviews {
     [super viewDidLayoutSubviews];
     NSLog(@"%s",__func__);
+    [UIImage imageNamed:@""];
 //    self.coverView.tg_lineColor = [UIColor redColor];
 //    self.coverView.tg_lineWidth = 2;
 //    self.coverView.tg_lineBottomEdgeInsets = UIEdgeInsetsMake(0, 0, 5, 0);

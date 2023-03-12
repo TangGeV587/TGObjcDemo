@@ -30,7 +30,7 @@
         // 获取CGImage
         CGImageRef cgImage = image.CGImage;
 
-        // alphaInfo
+        // 透明通道信息
         CGImageAlphaInfo alphaInfo = CGImageGetAlphaInfo(cgImage) & kCGBitmapAlphaInfoMask;
         BOOL hasAlpha = NO;
         if (alphaInfo == kCGImageAlphaPremultipliedLast ||
@@ -40,7 +40,7 @@
             hasAlpha = YES;
         }
         
-        // bitmapInfo
+        // 位图信息
         CGBitmapInfo bitmapInfo = kCGBitmapByteOrder32Host;
         bitmapInfo |= hasAlpha ? kCGImageAlphaPremultipliedFirst : kCGImageAlphaNoneSkipFirst;
 
@@ -49,13 +49,13 @@
         size_t height = CGImageGetHeight(cgImage);
         
         // 解码：把位图提前画到图形上下文，生成 cgImage，就完成了解码。
-        // context
+        // 创建位图上下文
         CGContextRef context = CGBitmapContextCreate(NULL, width, height, 8, 0, CGColorSpaceCreateDeviceRGB(), bitmapInfo);
 
-        // draw
+        // 把图片画到位图上下文上
         CGContextDrawImage(context, CGRectMake(0, 0, width, height), cgImage);
 
-        // get CGImage
+        // 获取画的图片
         cgImage = CGBitmapContextCreateImage(context);
 
         // 解码后的图片，包装成 UIImage 。

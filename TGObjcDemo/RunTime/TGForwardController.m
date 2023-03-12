@@ -15,21 +15,21 @@
 /** 返回未识别消息重定向的对象
     指定对象去接受这个消息
  */
-//- (id)forwardingTargetForSelector:(SEL)aSelector {
-//    if (aSelector == @selector(climbAction)) {
-//        return [[TGCat alloc] init];
-//    }
-//    return [super forwardingTargetForSelector:aSelector];
-//}
+- (id)forwardingTargetForSelector:(SEL)aSelector {
+    if (aSelector == @selector(climbAction)) {
+        return [[TGCat alloc] init];
+    }
+    return [super forwardingTargetForSelector:aSelector];
+}
 
 #pragma mark - 慢速转发
 
-- (NSMethodSignature *)methodSignatureForSelector:(SEL)aSelector {
-    if (aSelector == @selector(climbAction)) {
-        return [NSMethodSignature methodSignatureForSelector:aSelector];
-    }
-    return  [super methodSignatureForSelector:aSelector];
-}
+//- (NSMethodSignature *)methodSignatureForSelector:(SEL)aSelector {
+//    if (aSelector == @selector(climbAction)) {
+//        return [NSMethodSignature methodSignatureForSelector:aSelector];
+//    }
+//    return  [super methodSignatureForSelector:aSelector];
+//}
 
 @end
 
