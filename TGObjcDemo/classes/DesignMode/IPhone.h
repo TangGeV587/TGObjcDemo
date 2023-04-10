@@ -1,15 +1,15 @@
 //
-//  TGProductA.h
+//  IPhone.h
 //  TGObjcDemo
 //
 //  Created by 赵玉堂 on 2023/3/5.
 //
 
-#import "TGProduct.h"
+#import "Phone.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TGProductA : TGProduct
+@interface IPhone : NSObject<PhoneProtocol>
 
 @end
 

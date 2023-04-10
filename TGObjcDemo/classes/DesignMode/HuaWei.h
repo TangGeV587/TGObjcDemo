@@ -1,17 +1,16 @@
 //
-//  TGProduct.h
+//  TGProductA.h
 //  TGObjcDemo
 //
 //  Created by 赵玉堂 on 2023/3/5.
 //
 
-#import <UIKit/UIKit.h>
+#import "Phone.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TGProduct : NSObject
+@interface HuaWei : NSObject<PhoneProtocol>
 
-- (void)product;
 
 @end
 

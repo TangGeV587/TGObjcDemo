@@ -159,6 +159,7 @@
         _dataSource = @[
             [[TGDataItem alloc] init:@"Rac" withClassName:@"RacListTableViewController"],
             [[TGDataItem alloc] init:@"RunTime" withClassName:@"TGRuntimeListController"],
+            [[TGDataItem alloc] init:@"设计模式" withClassName:@"TGDesignPatternController"]
         ];
     }
     return _dataSource;

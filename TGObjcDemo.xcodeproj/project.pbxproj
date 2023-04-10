@@ -58,10 +58,12 @@
 		4C0E7739293E27140054E62A /* SPActivityIndicatorNineDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0E7708293E27140054E62A /* SPActivityIndicatorNineDotsAnimation.m */; };
 		4C0E773A293E27140054E62A /* MBProgressHUD+GLCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0E770A293E27140054E62A /* MBProgressHUD+GLCar.m */; };
 		4C0E773B293E27140054E62A /* SPActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0E770C293E27140054E62A /* SPActivityIndicatorView.m */; };
+		4C325F0A29E1190C002E2E16 /* TGDesignPatternController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C325F0929E1190C002E2E16 /* TGDesignPatternController.m */; };
+		4C325F1129E3ACBE002E2E16 /* TGIphoneFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C325F1029E3ACBE002E2E16 /* TGIphoneFactory.m */; };
+		4C325F1429E3ACD5002E2E16 /* TGHuaWeiFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C325F1329E3ACD5002E2E16 /* TGHuaWeiFactory.m */; };
 		4C431FE2293F1E0200B51334 /* UIView+TGHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C431FE1293F1E0200B51334 /* UIView+TGHUD.m */; };
-		4C5EEABD29B4DF67001E4BFE /* TGProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5EEABC29B4DF67001E4BFE /* TGProduct.m */; };
-		4C5EEAC029B4E2D7001E4BFE /* TGProductA.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5EEABF29B4E2D7001E4BFE /* TGProductA.m */; };
-		4C5EEAC329B4E2EC001E4BFE /* TGProductB.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5EEAC229B4E2EC001E4BFE /* TGProductB.m */; };
+		4C5EEAC029B4E2D7001E4BFE /* HuaWei.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5EEABF29B4E2D7001E4BFE /* HuaWei.m */; };
+		4C5EEAC329B4E2EC001E4BFE /* IPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5EEAC229B4E2EC001E4BFE /* IPhone.m */; };
 		4C5EEAC629B9824E001E4BFE /* TGWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5EEAC529B9824E001E4BFE /* TGWebView.m */; };
 		4C5EEAC929B98270001E4BFE /* TGWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5EEAC829B98270001E4BFE /* TGWebViewController.m */; };
 		4C5EEACC29BA21CF001E4BFE /* TGWeakScriptMessageDeledate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5EEACB29BA21CF001E4BFE /* TGWeakScriptMessageDeledate.m */; };
@@ -251,14 +253,20 @@
 		4C0E770A293E27140054E62A /* MBProgressHUD+GLCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+GLCar.m"; sourceTree = "<group>"; };
 		4C0E770B293E27140054E62A /* SPActivityIndicatorAnimationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPActivityIndicatorAnimationProtocol.h; sourceTree = "<group>"; };
 		4C0E770C293E27140054E62A /* SPActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPActivityIndicatorView.m; sourceTree = "<group>"; };
+		4C325F0829E1190C002E2E16 /* TGDesignPatternController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGDesignPatternController.h; sourceTree = "<group>"; };
+		4C325F0929E1190C002E2E16 /* TGDesignPatternController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGDesignPatternController.m; sourceTree = "<group>"; };
+		4C325F0E29E3ABE4002E2E16 /* TGPhoneFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGPhoneFactory.h; sourceTree = "<group>"; };
+		4C325F0F29E3ACBE002E2E16 /* TGIphoneFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGIphoneFactory.h; sourceTree = "<group>"; };
+		4C325F1029E3ACBE002E2E16 /* TGIphoneFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGIphoneFactory.m; sourceTree = "<group>"; };
+		4C325F1229E3ACD5002E2E16 /* TGHuaWeiFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGHuaWeiFactory.h; sourceTree = "<group>"; };
+		4C325F1329E3ACD5002E2E16 /* TGHuaWeiFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGHuaWeiFactory.m; sourceTree = "<group>"; };
 		4C431FE0293F1E0200B51334 /* UIView+TGHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+TGHUD.h"; sourceTree = "<group>"; };
 		4C431FE1293F1E0200B51334 /* UIView+TGHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+TGHUD.m"; sourceTree = "<group>"; };
-		4C5EEABB29B4DF67001E4BFE /* TGProduct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGProduct.h; sourceTree = "<group>"; };
-		4C5EEABC29B4DF67001E4BFE /* TGProduct.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGProduct.m; sourceTree = "<group>"; };
-		4C5EEABE29B4E2D7001E4BFE /* TGProductA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGProductA.h; sourceTree = "<group>"; };
-		4C5EEABF29B4E2D7001E4BFE /* TGProductA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGProductA.m; sourceTree = "<group>"; };
-		4C5EEAC129B4E2EC001E4BFE /* TGProductB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGProductB.h; sourceTree = "<group>"; };
-		4C5EEAC229B4E2EC001E4BFE /* TGProductB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGProductB.m; sourceTree = "<group>"; };
+		4C5EEABB29B4DF67001E4BFE /* Phone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Phone.h; sourceTree = "<group>"; };
+		4C5EEABE29B4E2D7001E4BFE /* HuaWei.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuaWei.h; sourceTree = "<group>"; };
+		4C5EEABF29B4E2D7001E4BFE /* HuaWei.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuaWei.m; sourceTree = "<group>"; };
+		4C5EEAC129B4E2EC001E4BFE /* IPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPhone.h; sourceTree = "<group>"; };
+		4C5EEAC229B4E2EC001E4BFE /* IPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPhone.m; sourceTree = "<group>"; };
 		4C5EEAC429B9824E001E4BFE /* TGWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGWebView.h; sourceTree = "<group>"; };
 		4C5EEAC529B9824E001E4BFE /* TGWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGWebView.m; sourceTree = "<group>"; };
 		4C5EEAC729B98270001E4BFE /* TGWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGWebViewController.h; sourceTree = "<group>"; };
@@ -633,12 +641,18 @@
 		4C5EEABA29B4DF06001E4BFE /* DesignMode */ = {
 			isa = PBXGroup;
 			children = (
-				4C5EEABB29B4DF67001E4BFE /* TGProduct.h */,
-				4C5EEABC29B4DF67001E4BFE /* TGProduct.m */,
-				4C5EEABE29B4E2D7001E4BFE /* TGProductA.h */,
-				4C5EEABF29B4E2D7001E4BFE /* TGProductA.m */,
-				4C5EEAC129B4E2EC001E4BFE /* TGProductB.h */,
-				4C5EEAC229B4E2EC001E4BFE /* TGProductB.m */,
+				4C5EEABB29B4DF67001E4BFE /* Phone.h */,
+				4C5EEABE29B4E2D7001E4BFE /* HuaWei.h */,
+				4C5EEABF29B4E2D7001E4BFE /* HuaWei.m */,
+				4C5EEAC129B4E2EC001E4BFE /* IPhone.h */,
+				4C5EEAC229B4E2EC001E4BFE /* IPhone.m */,
+				4C325F0829E1190C002E2E16 /* TGDesignPatternController.h */,
+				4C325F0929E1190C002E2E16 /* TGDesignPatternController.m */,
+				4C325F0E29E3ABE4002E2E16 /* TGPhoneFactory.h */,
+				4C325F0F29E3ACBE002E2E16 /* TGIphoneFactory.h */,
+				4C325F1029E3ACBE002E2E16 /* TGIphoneFactory.m */,
+				4C325F1229E3ACD5002E2E16 /* TGHuaWeiFactory.h */,
+				4C325F1329E3ACD5002E2E16 /* TGHuaWeiFactory.m */,
 			);
 			path = DesignMode;
 			sourceTree = "<group>";
@@ -1133,10 +1147,12 @@
 				4C5FA69429387FAD00EE583E /* TGButton.m in Sources */,
 				9E243BC228066CFD00B99031 /* SSKeychain+MRCUtil.m in Sources */,
 				4C0E772D293E27140054E62A /* SPActivityIndicatorBallClipRotatePulseAnimation.m in Sources */,
+				4C325F1429E3ACD5002E2E16 /* TGHuaWeiFactory.m in Sources */,
 				4C5FA6A12938FE2400EE583E /* UIViewController+TGTableView.m in Sources */,
+				4C325F1129E3ACBE002E2E16 /* TGIphoneFactory.m in Sources */,
 				4C0E773A293E27140054E62A /* MBProgressHUD+GLCar.m in Sources */,
 				4C0E7721293E27140054E62A /* SPActivityIndicatorTripleRingsAnimation.m in Sources */,
-				4C5EEAC329B4E2EC001E4BFE /* TGProductB.m in Sources */,
+				4C5EEAC329B4E2EC001E4BFE /* IPhone.m in Sources */,
 				4C0E7710293E27140054E62A /* SPActivityIndicatorTriangleSkewSpinAnimation.m in Sources */,
 				9E8AB2A127FED3EC0081D9E2 /* RACOtherController.m in Sources */,
 				9EEE843B27ED9ED100E3E948 /* TGDataItem.m in Sources */,
@@ -1178,7 +1194,6 @@
 				4C0E7735293E27140054E62A /* SPActivityIndicatorBallRotateAnimation.m in Sources */,
 				4C5FA6AD293C418B00EE583E /* TestCell.m in Sources */,
 				4CA1D147294ABD2F00DEFB29 /* TGForwardController.m in Sources */,
-				4C5EEABD29B4DF67001E4BFE /* TGProduct.m in Sources */,
 				4C0E7729293E27140054E62A /* SPActivityIndicatorBallTrianglePathAnimation.m in Sources */,
 				9E8AB29227FD35870081D9E2 /* RACCommondController.m in Sources */,
 				4C0E7718293E27140054E62A /* SPActivityIndicatorTriplePulseAnimation.m in Sources */,
@@ -1193,6 +1208,7 @@
 				4C5FA67C2937903000EE583E /* UIView+TGLine.m in Sources */,
 				4C0E7711293E27140054E62A /* SPActivityIndicatorRotatingTrigonAnimation.m in Sources */,
 				4C0E771E293E27140054E62A /* SPActivityIndicatorBallSpinFadeLoader.m in Sources */,
+				4C325F0A29E1190C002E2E16 /* TGDesignPatternController.m in Sources */,
 				9E5CD6BF281666260055603D /* NSObject+safe.m in Sources */,
 				4C0E770D293E27140054E62A /* SPActivityIndicatorTestViewController.m in Sources */,
 				4C5FA6882937A72100EE583E /* NSString+TGEncrypt.m in Sources */,
@@ -1216,7 +1232,7 @@
 				4C0E7734293E27140054E62A /* SPActivityIndicatorBallScaleRippleMultipleAnimation.m in Sources */,
 				9E8AB22227F144850081D9E2 /* SubjectSubController.m in Sources */,
 				9E5CD6B628154D290055603D /* NSArray+safe.m in Sources */,
-				4C5EEAC029B4E2D7001E4BFE /* TGProductA.m in Sources */,
+				4C5EEAC029B4E2D7001E4BFE /* HuaWei.m in Sources */,
 				9E8AB29827FD8D900081D9E2 /* RACMapController.m in Sources */,
 				4C0E7723293E27140054E62A /* SPActivityIndicatorRotaingCurveEaseOutAnimation.m in Sources */,
 				9E8AB28F27F83BB00081D9E2 /* TGDemoBaseController.m in Sources */,
