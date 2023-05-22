@@ -104,7 +104,7 @@
 		9E5CD6BC28162DD80055603D /* NSMutableArray+safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5CD6BB28162DD80055603D /* NSMutableArray+safe.m */; };
 		9E5CD6BF281666260055603D /* NSObject+safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5CD6BE281666260055603D /* NSObject+safe.m */; };
 		9E5CD6C2281675D90055603D /* TGCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5CD6C1281675D90055603D /* TGCrash.m */; };
-		9E85CA7B28124D9600E8A951 /* property_attributes.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E85CA7A28124D9600E8A951 /* property_attributes.png */; };
+		9E85CA7B28124D9600E8A951 /* property_attributes.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E85CA7A28124D9600E8A951 /* property_attributes.png */; settings = {ASSET_TAGS = (New, ); }; };
 		9E8AB22227F144850081D9E2 /* SubjectSubController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8AB22127F144850081D9E2 /* SubjectSubController.m */; };
 		9E8AB22927F48AFE0081D9E2 /* BehaviorSubjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8AB22827F48AFE0081D9E2 /* BehaviorSubjectController.m */; };
 		9E8AB23127F68D8E0081D9E2 /* TGObjcDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8AB23027F68D8D0081D9E2 /* TGObjcDemoTests.m */; };
@@ -978,6 +978,9 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				CLASSPREFIX = TG;
+				KnownAssetTags = (
+					New,
+				);
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
 					9E0D435927EC5F270074B761 = {
@@ -1416,6 +1419,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tangge.TGObjcDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1444,6 +1448,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tangge.TGObjcDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

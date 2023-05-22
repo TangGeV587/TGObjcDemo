@@ -86,6 +86,7 @@
     }else {
         decisionHandler(WKNavigationActionPolicyCancel);
     }
+    
 }
 
 - (void)webView:(WKWebView *)webView decidePolicyForNavigationResponse:(WKNavigationResponse *)navigationResponse decisionHandler:(void (^)(WKNavigationResponsePolicy))decisionHandler{
@@ -121,8 +122,14 @@
 - (void)webView:(WKWebView *)webView didReceiveAuthenticationChallenge:(NSURLAuthenticationChallenge *)challenge completionHandler:(void (^)(NSURLSessionAuthChallengeDisposition, NSURLCredential * _Nullable))completionHandler {
     
     if(challenge.protectionSpace.authenticationMethod == NSURLAuthenticationMethodServerTrust) {
-        NSURLCredential *credential = [[NSURLCredential alloc] initWithTrust:challenge.protectionSpace.serverTrust];
-        completionHandler(NSURLSessionAuthChallengeUseCredential,credential);
+        if ([challenge previousFailureCount] == 0) {
+            // 如果没有错误的情况下 创建一个凭证，并使用证书
+            NSURLCredential *credential = [[NSURLCredential alloc] initWithTrust:challenge.protectionSpace.serverTrust];
+            // 验证失败，取消本次验证
+            completionHandler(NSURLSessionAuthChallengeUseCredential,nil);
+        }else {
+            completionHandler(NSURLSessionAuthChallengeUseCredential,nil);
+        }
     }
 }
 
@@ -131,6 +138,10 @@
         
         NSLog(@"----%@",message.body);
     }
+}
+
+- (void)webViewWebContentProcessDidTerminate:(WKWebView *)webView {
+    [webView reload];
 }
 
 @end

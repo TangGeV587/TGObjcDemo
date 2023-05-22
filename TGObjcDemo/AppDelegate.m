@@ -8,7 +8,7 @@
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
-
+@property (nonatomic ,copy) NSMutableArray *array;
 @end
 
 @implementation AppDelegate
@@ -16,6 +16,13 @@
  
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    
+    NSMutableArray *mutableArray = [NSMutableArray arrayWithObjects:@"A", @"B", nil];
+    self.array = mutableArray; // self.array 是一个被声明为 copy 的属性
+    [mutableArray addObject:@"C"];
+    NSLog(@"%@",self.array);
+    [self.array addObject:@"xxx"];
     // Override point for customization after application launch.
     
 //    NSString *formatStringForHours = [NSDateFormatter dateFormatFromTemplate:@"j" options:0 locale:[NSLocale currentLocale]];
